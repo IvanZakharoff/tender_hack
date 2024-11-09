@@ -23,10 +23,12 @@ class ExampleApi(Resource):
 @api.route('/example')
 class ExampleCreateApi(Resource):
     @api.doc('create_example')
-    @api.expect(ExampleDTO.example_scheme, validate=True)
+    # @api.expect(ExampleDTO.example_scheme, validate=True)
     @api.response(200, 'Success', ExampleDTO.example_scheme)
     def post(self):
         """Получить заметку по идентификатору"""
         data = api.payload()
         api.abort(400, "bad request")
         return data
+
+
