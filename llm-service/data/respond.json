@@ -1,0 +1,19 @@
+{
+    "results": [
+        {
+            "rule_id": "1",
+            "status": "succeed",
+            "reason": ""
+        },
+        {
+            "rule_id": "2",
+            "status": "succeed",
+            "reason": ""
+        },
+        {
+            "rule_id": "4",
+            "status": "unsucceed",
+            "reason": "Because pipipipipi"
+        }
+    ]
+}

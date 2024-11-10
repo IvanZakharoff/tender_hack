@@ -12,11 +12,11 @@ class QuestionManager:
             'TECHNICAL_SPECIFICATION', # ТЗ | Если есть файл ТЗ то наименование тз должно совпасть (если есть) значение характеристик спецификации в тз, количество товаров и услуг должно совпадать, если в тз характеристик больше то норм, живем, иначе пизда
         ]
     
-    def __init__(self, rule:Literal[1, 2, 3, 4, 5, 6], args:dict):
+    def __init__(self, rule_id:Literal[1, 2, 3, 4, 5, 6], args:dict):
         self.args = args
-        self.ask = self._find_out_rule(rule)
+        self.ask = self._find_out_rule(rule_id)
         
-    def _find_out_rule(self, rule):
+    def _find_out_rule(self, rule_id):
         questions = [
             self.ask_name_equality,
             self.ask_contract_guarantee,
@@ -25,7 +25,7 @@ class QuestionManager:
             self.ask_contract_prize,
             self.ask_technical_specifications
         ] 
-        return questions[int(rule)]
+        return questions[int(rule_id)-1]
     
     def ask_name_equality(self):
         

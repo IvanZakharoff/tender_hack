@@ -1,14 +1,17 @@
 from .analyzer import LLMManager
 from .question_manager import QuestionManager
+from .llm_answer_manager import LlmAnswerManager
 from ..service.semantic_equality import symbolic_levenshtein, semantic_cosine
 
 class SessionManager:
+    #TODO somehow insert files
     def __init__(self, request_data):
         clear_contract = request_data["clear_contract"]
         self.llm_manager = LLMManager(clear_contract)
         self.request_args = request_data.get("rules")
         self.questions = {}
         self.llm_answers_to_compare = {}
+        self.result_list = []
         
         
     def parse_args(self):
@@ -24,6 +27,22 @@ class SessionManager:
             self.llm_answers_to_compare[rule_id]['raw_answers'] = self.llm_manager.ask_saiga(question)
             self.llm_answers_to_compare[rule_id]['args_to_compare'] = question.args
             
-    def blya_pizda_what_am_i_doing_omg_semantic_ass(self):
-        print()
-        pass
+    def check(self):
+        for rule_id, data in self.llm_answers_to_compare.items():
+            raw_answers = data['raw_answers']
+            args_to_compare = data['args_to_compare']
+            
+            checker = LlmAnswerManager(rule_id, raw_answers, args_to_compare)
+            checker.check()
+            rule_res = {
+                rule_id,
+                checker.status,
+                checker.reason
+            }
+            self.result_list.append(rule_res)
+            
+        final_result = {
+            "results":self.result_list
+        }
+        
+        return final_result

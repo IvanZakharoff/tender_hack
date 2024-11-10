@@ -1,18 +1,18 @@
 {
-    "text":"<text>",
+    "text":"clear_contract",
     "rules":
     [
         {
             "rule":"NAME_EQUALITY",
             "parsed_args":{
-                "contractName":"name" // not null
+                "contractName":"name" 
             }
         },
     
         {
             "rule":"CONTRACT_ENFORSEMENT",
             "args":{
-                "isContractGuaranteeRequired":true // required
+                "isContractGuaranteeRequired":true 
             }
         },
     
@@ -20,16 +20,16 @@
         "rule":"CERTIFICATION",
             "args":{
                 "licenseFiles":[
-                "text" // nullable
+                "text" 
                 ]
             }
         },
         {
             "rule":"SUPPLY_SCHEDULE AND STAGE",
             "args":{
-                "periodDaysFrom":"<text>", // required
-                "periodDaysTo":"<text>",    // required
-                "deliveryStage":"smth text"// required
+                "periodDaysFrom":"<text>", 
+                "periodDaysTo":"<text>",    
+                "deliveryStage":"smth text"
             }
         },
         {
@@ -50,11 +50,11 @@
                     "properties":[
                         {
                             "name":"<text>",
-                            "value":"<text>", // згачение + ед. измерения
+                            "value":"<text>"
                         }
                     ],
                     "quantity":"<text>",
-                    "costPerUnit":"<text>" // цена за единицу товара
+                    "costPerUnit":"<text>"
                 }
             ]
         }
