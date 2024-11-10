@@ -1,6 +1,6 @@
 {
     "text":"<text>",
-    "rules": 
+    "rules":
     [
         {
             "rule":"NAME_EQUALITY",
@@ -41,8 +41,9 @@
         },
         {
         "rule":"TECHNICAL_SPECIFICATION",
-        "text":"<text ts>",
+
         "args":{
+            "text_tz":"<text tz>",
             "items":[
                 {
                     "name":"<text>",

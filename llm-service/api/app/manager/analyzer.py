@@ -32,4 +32,3 @@ class LLMManager:
         relevant_context = [vault_content[idx].strip() for idx in top_indices]
         return relevant_context
     
-    def 
