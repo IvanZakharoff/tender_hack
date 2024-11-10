@@ -61,8 +61,47 @@ func (h *Handler) CheckSessions(w http.ResponseWriter, r *http.Request) {
 
 	buf.FilePools = filePoolsBlock
 
-	results := h.SessionService.ProcessSessions(buf)
-	resultsJSON, err := json.Marshal(results)
+	// results := h.SessionService.ProcessSessions(buf)
+	// resultsJSON, err := json.Marshal(results)
+	type ResultBlock struct {
+		RuleId string `json:"rule_id"`
+		Status string `json:"status"`
+		Reason string `json:"reason"`
+	}
+
+	type ResultList struct {
+		Url     string        `json:"url"`
+		Name    string        `json:"name"`
+		Results []ResultBlock `json:"results"`
+	}
+
+	resultLists := []ResultList{
+		{
+			Url:  "http://example.com",
+			Name: "Test Result",
+			Results: []ResultBlock{
+				{RuleId: "1", Status: "succeed", Reason: ""},
+				{RuleId: "2", Status: "succeed", Reason: ""},
+				{RuleId: "4", Status: "unsucceed", Reason: "Because pipipipipi"},
+			},
+		},
+		{
+			Url:  "http://example.com",
+			Name: "Test Result",
+			Results: []ResultBlock{
+				{RuleId: "3", Status: "warning", Reason: "Не повезло"},
+				{RuleId: "4", Status: "warning", Reason: ""},
+				{RuleId: "5", Status: "unsucceed", Reason: ""},
+				{RuleId: "6", Status: "warning", Reason: "Не все характеристики заявленные в описании указаны в карточке КС"},
+			},
+		},
+	}
+
+	resultsJSON, err := json.MarshalIndent(resultLists, "", "  ")
+	if err != nil {
+		fmt.Println("Error marshaling JSON:", err)
+		return
+	}
 
 	// Отправляем успешный ответ
 	w.Write(resultsJSON)

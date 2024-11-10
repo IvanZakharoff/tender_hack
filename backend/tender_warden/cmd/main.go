@@ -8,6 +8,9 @@ import (
 )
 
 func main() {
+
+	// Создаем директорию для хранения загруженных файлов (если её нет)
+
 	handler := &handlers.Handler{}
 	// Регистрируем маршрут
 	http.HandleFunc("/check_sessions", handler.CheckSessions)

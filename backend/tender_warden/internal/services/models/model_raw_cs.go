@@ -8,8 +8,8 @@ type CSRaw struct {
 		PeriodDaysFrom int `json:"periodDaysFrom"`
 		PeriodDaysTo   int `json:"periodDaysTo"`
 	} `json:"deliveries"`
-	StartCost    float64 `json:"startCost"`
-	ContractCost float64 `json:"contractCost"` // maxContractCost
+	StartCost    float64  `json:"startCost"`
+	ContractCost *float64 `json:"contractCost"` // maxContractCost
 	Items        []struct {
 		Id          int     `json:"id"`
 		CostPerUnit float64 `json:"costPerUnit"`

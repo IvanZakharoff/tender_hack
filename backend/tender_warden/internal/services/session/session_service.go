@@ -163,7 +163,7 @@ func (s *SessionService) CheckSession(rules *models.Rules, cs *models.CSBlock, r
 	}
 
 	// Создаем POST-запрос
-	url := "http://localhost:8000/check_session"
+	url := "http://localhost:5000/check/session"
 	req, err := http.NewRequest("POST", url, body)
 	if err != nil {
 		return err
@@ -256,14 +256,19 @@ func (s *SessionService) BuildSessionRules(
 				},
 			})
 		case models.CONTRACT_COST:
+			maxContractCost := ""
+			if csRaw.ContractCost != nil {
+				maxContractCost = fmt.Sprintf("%f", *csRaw.ContractCost)
+			}
 			rules.RulesList = append(rules.RulesList, models.RuleBlock{
+
 				Rule: rule.Id,
 				Args: struct {
 					StartCost       string `json:"startCost"`
 					MaxContractCost string `json:"maxContractCost"`
 				}{
 					StartCost:       fmt.Sprintf("%f", csRaw.StartCost),
-					MaxContractCost: fmt.Sprintf("%f", csRaw.ContractCost),
+					MaxContractCost: maxContractCost,
 				},
 			})
 		case models.TECHNICAL_SPECIFICATION:
