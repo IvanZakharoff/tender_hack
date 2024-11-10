@@ -1,17 +1,5 @@
 from .common import *
 
-def time_decorator(func):
-    def wrapper(*args, **kwargs):
-        start_time = time.time()  # Запоминаем время начала
-        result = func(*args, **kwargs)  # Вызываем оригинальную функцию
-        end_time = time.time()  # Запоминаем время окончания
-        execution_time = end_time - start_time  # Вычисляем время выполнения
-
-        # Выводим имя функции и время её выполнения
-        print(f"Функция '{func.__name__}' выполнялась {execution_time:.4f} секунд.")
-        return result  # Возвращаем результат оригинальной функции
-    
-    return wrapper
 
 # Function to get relevant context from the vault based on user input
 def get_relevant_context(rewritten_input, vault_embeddings, vault_content, top_k=3):
@@ -103,13 +91,7 @@ def ollama_chat(user_input, system_message, vault_embeddings, vault_content, oll
     
     return response.choices[0].message.content
 
-@time_decorator
-def clean_string(input_string):
-    # Удаляем все символы, которые не являются буквами
-    cleaned_string = re.sub(r'[^a-zA-Zа-яА-ЯёЁ\s]', '', input_string)
-    # Удаляем лишние пробелы
-    cleaned_string = re.sub(r'\s+', ' ', cleaned_string).strip()
-    return cleaned_string.lower()
+
 
 @time_decorator
 def embedding(clean_string):
