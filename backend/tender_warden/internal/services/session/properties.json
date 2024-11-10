@@ -1,0 +1,291 @@
+{
+  "characteristics": [
+    {
+      "name": "Антимикробная активность",
+      "value": "Особо опасные инфекции"
+    },
+    {
+      "name": "Антимикробная активность",
+      "value": "Плесневые грибы"
+    },
+    {
+      "name": "Антимикробная активность",
+      "value": "Вирусы-патогены человека"
+    },
+    {
+      "name": "Антимикробная активность",
+      "value": "Возбудители внутрибольничных инфекций"
+    },
+    {
+      "name": "Антимикробная активность",
+      "value": "Грамотрицательных и грамположительных (в том числе микобактерий туберкулеза) бактерий, вирусов (ВИЧ и гепатита С) грибов рода Кандида"
+    },
+    {
+      "name": "Объем",
+      "value": "1 Л; ДМ3"
+    },
+    {
+      "name": "Оказываемое средством действие",
+      "value": "Фунгицидное; Вирулицидное; Бактерицидное"
+    },
+    {
+      "name": "Основное действующее вещество",
+      "value": "Алкилдиметилбензиламмоний хлорид"
+    },
+    {
+      "name": "Применяют для дезинфекции",
+      "value": "Поверхности; Предметы ухода за больными; Приборы"
+    },
+    {
+      "name": "Применяют для дезинфекции",
+      "value": "Санитарно-техническое оборудование; Посуда; Изделия медицинского назначения; Поверхности; Белье; Предметы ухода за больными; Кровь и биологические выделения человека"
+    },
+    {
+      "name": "Разрешено к применению",
+      "value": "Медицинские учреждения"
+    },
+    {
+      "name": "Разрешено к применению",
+      "value": "Детские отделения"
+    },
+    {
+      "name": "Форма выпуска",
+      "value": "Бутылка"
+    },
+    {
+      "name": "Функциональные компоненты, смягчающие кожу",
+      "value": "Да"
+    },
+    {
+      "name": "Вид медицинские расходные материалы",
+      "value": "Средства дезинфекционные"
+    },
+    {
+      "name": "Вид товаров",
+      "value": "Медицинские товары"
+    },
+    {
+      "name": "Вид продукции",
+      "value": "Товары"
+    },
+    {
+      "name": "Вид товары медицинские",
+      "value": "Медицинские расходные материалы"
+    },
+    {
+      "name": "Вид средства дезинфекционные",
+      "value": "Средство дезинфицирующее для медицинских учреждений"
+    }
+  ],
+  "auctionItemDelivery": [
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Воронежская, дом 28, корпус 2",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237859
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Воронежская, дом 5, корпус 2",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237860
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Воронежская, дом 7, корпус 2",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237861
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Воронежская, дом 8, корпус 5",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237862
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Генерала Белова, дом 49, корпус 1",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237863
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Генерала Белова, дом 55, корпус 2",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237864
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Елецкая, дом 12, корпус 3",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237865
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Елецкая, дом 15, корпус 2",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237866
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Елецкая, дом 21",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237867
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Ясеневая, дом 12, строение 3",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237868
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Ясеневая, дом 12, строение 4",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237869
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Ясеневая, дом 21, корпус 3",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237870
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Ясеневая, дом 23, корпус 2",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237871
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Ясеневая, дом 35, корпус 2",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237872
+    },
+    {
+      "startDate": null,
+      "endDate": null,
+      "daysStart": 1,
+      "daysEnd": 3,
+      "workdays": true,
+      "deliverOnWorkDays": null,
+      "details": null,
+      "deliveryAddress": "Город Москва, улица Ясеневая, дом 39, корпус 2",
+      "quantity": 10.00,
+      "buyer": null,
+      "id": 6237873
+    }
+  ],
+  "okpd": {
+    "code": "20.20.14.000",
+    "name": "Средства дезинфекционные",
+    "id": 1124407
+  },
+  "production": {
+    "code": "01.02.10.55.01",
+    "name": "СРЕДСТВО ДЕЗИНФИЦИРУЮЩЕЕ ДЛЯ МЕДИЦИНСКИХ УЧРЕЖДЕНИЙ",
+    "id": 12112959
+  },
+  "skuModelName": "Pro2023",
+  "skuManufacturerName": "ООО \"РУДЕЗ\"",
+  "oksm": null,
+  "id": 22157213
+}
