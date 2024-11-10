@@ -1,0 +1,12 @@
+from enum import Enum
+
+
+class RuleEnum(Enum):
+    NAME_EQUALITY = 1
+    CONTRACT_GUARANTEE  = 2
+    CERTIFICATION = 3
+    SUPPLY_SCHEDULE_AND_STAGE = 4
+    CONTRACT_PRICE = 5 
+    TECHNICAL_SPECIFICATION = 5
+
+
