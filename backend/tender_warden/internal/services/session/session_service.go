@@ -2,10 +2,11 @@ package session
 
 import (
 	"bytes"
+	"encoding/json"
 	"fmt"
-	"github.com/ledongthuc/pdf"
 	"io/ioutil"
-	"regexp"
+	"mime/multipart"
+	"net/http"
 	"strconv"
 	"strings"
 	"tender_warden/internal/handlers/dto"
@@ -44,24 +45,152 @@ func (s *SessionService) SessionModelConstructor(csListDTO *dto.CSListDTO) *mode
 
 }
 
-func (s *SessionService) ProcessSessions(csListDTO *dto.CSListDTO) {
+func (s *SessionService) ProcessSessions(csListDTO *dto.CSListDTO) []*models.ResultList {
+	resultList := make([]*models.ResultList, 0, len(csListDTO.CSList))
 	csList := s.SessionModelConstructor(csListDTO)
 	fmt.Println(csList.CSList)
 	for k, v := range csList.CSList {
-		s.ProcessSession(&v, k)
+		result, err := s.ProcessSession(&v, k)
+		if err == nil {
+			resultList = append(resultList, result)
+		}
 	}
+
+	return resultList
 }
 
-func (s *SessionService) ProcessSession(cs *models.CSBlock, cs_url string) {
+//func (s *SessionService) SendResult(result *models.ResultList) {
+//	// Преобразуем структуру result в JSON
+//	resultJSON, err := json.Marshal(result)
+//	if err != nil {
+//		return
+//	}
+//
+//	// Создаем POST-запрос
+//	url := "http://localhost:8000/session_result"
+//	req, err := http.NewRequest("POST", url, bytes.NewBuffer(resultJSON))
+//	if err != nil {
+//		return
+//	}
+//	req.Header.Set("Content-Type", "application/json")
+//
+//	// Выполняем запрос
+//	client := &http.Client{}
+//	resp, err := client.Do(req)
+//	if err != nil {
+//		return
+//	}
+//	defer resp.Body.Close()
+//	return
+//}
+
+//func (s *SessionService) SendError() {
+//	// Создаем POST-запрос
+//	url := "http://localhost:8000/session_result"
+//	message := "Упс! Что-то пошло не так."
+//	req, err := http.NewRequest("POST", url, strings.NewReader(message))
+//	if err != nil {
+//		return
+//	}
+//	req.Header.Set("Content-Type", "text/plain")
+//
+//	// Выполняем запрос
+//	client := &http.Client{}
+//	resp, err := client.Do(req)
+//	if err != nil {
+//		return
+//	}
+//	defer resp.Body.Close()
+//}
+
+func (s *SessionService) ProcessSession(cs *models.CSBlock, cs_url string) (*models.ResultList, error) {
 	csRaw := s.SessionScraper.ScrapeSession(cs_url)
+	var rules *models.Rules
 	propertiesRawMap := make(map[int]*models.PropertiesRaw, len(csRaw.Items))
 	for _, item := range csRaw.Items {
 		propertiesRaw := s.SessionScraper.ScrapeItemProperties(item.Id)
 		propertiesRawMap[item.Id] = propertiesRaw
-		rules := s.BuildSessionRules(cs, csRaw, propertiesRawMap)
-		fmt.Println(rules.RulesList)
+		rules = s.BuildSessionRules(cs, csRaw, propertiesRawMap)
 	}
 
+	result := &models.ResultList{}
+	err := s.CheckSession(rules, cs, result)
+	if err != nil {
+		return nil, err
+	}
+	result.Url = cs_url
+	result.Name = csRaw.Name
+
+	return result, nil
+}
+
+func (s *SessionService) CheckSession(rules *models.Rules, cs *models.CSBlock, result *models.ResultList) error {
+	// Создаем новый буфер для записи multipart/form-data
+	body := &bytes.Buffer{}
+	writer := multipart.NewWriter(body)
+
+	// Преобразуем структуру rules в JSON и добавляем в форму
+	rulesJSON, err := json.Marshal(rules)
+	if err != nil {
+		return err
+	}
+	part, err := writer.CreateFormField("rules")
+	if err != nil {
+		return err
+	}
+	_, err = part.Write(rulesJSON)
+	if err != nil {
+		return err
+	}
+
+	// Добавляем файлы в форму
+	for filename, file := range cs.Files {
+		fileType := strings.Split(filename, ".")[0]
+		part, err := writer.CreateFormFile(fileType, filename)
+		if err != nil {
+			return err
+		}
+		_, err = part.Write(file)
+		if err != nil {
+			return err
+		}
+	}
+
+	// Закрываем форму
+	err = writer.Close()
+	if err != nil {
+		return err
+	}
+
+	// Создаем POST-запрос
+	url := "http://localhost:8000/check_session"
+	req, err := http.NewRequest("POST", url, body)
+	if err != nil {
+		return err
+	}
+	req.Header.Set("Content-Type", writer.FormDataContentType())
+
+	// Выполняем запрос
+	client := &http.Client{}
+	resp, err := client.Do(req)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+
+	// Читаем тело ответа
+	respBody, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return err
+	}
+
+	// Декодируем JSON-ответ в структуру result
+	err = json.Unmarshal(respBody, result)
+	if err != nil {
+		return err
+	}
+
+	return nil
 }
 
 func (s *SessionService) BuildSessionRules(
@@ -69,10 +198,8 @@ func (s *SessionService) BuildSessionRules(
 	csRaw *models.CSRaw,
 	propertiesRaw map[int]*models.PropertiesRaw,
 ) *models.Rules {
-	contractStr, tzStr := s.ParseDocs(cs)
-
 	rules := &models.Rules{
-		Text:      contractStr + "\n" + tzStr,
+		Text:      "",
 		RulesList: make([]models.RuleBlock, 0, len(cs.Rules)),
 	}
 
@@ -82,7 +209,7 @@ func (s *SessionService) BuildSessionRules(
 			rules.RulesList = append(rules.RulesList, models.RuleBlock{
 				Rule: rule.Id,
 				Args: struct {
-					ContractName string
+					ContractName string `json:"contractName"`
 				}{
 					ContractName: csRaw.Name,
 				},
@@ -91,7 +218,7 @@ func (s *SessionService) BuildSessionRules(
 			rules.RulesList = append(rules.RulesList, models.RuleBlock{
 				Rule: rule.Id,
 				Args: struct {
-					IsContractGuaranteeRequired bool
+					IsContractGuaranteeRequired bool `json:"isContractGuaranteeRequired"`
 				}{
 					IsContractGuaranteeRequired: csRaw.IsContractGuaranteeRequired,
 				},
@@ -109,7 +236,7 @@ func (s *SessionService) BuildSessionRules(
 			rules.RulesList = append(rules.RulesList, models.RuleBlock{
 				Rule: rule.Id,
 				Args: struct {
-					LicenseFiles []string
+					LicenseFiles []string `json:"licenseFiles"`
 				}{
 					LicenseFiles: licenseFiles,
 				},
@@ -119,9 +246,9 @@ func (s *SessionService) BuildSessionRules(
 			rules.RulesList = append(rules.RulesList, models.RuleBlock{
 				Rule: rule.Id,
 				Args: struct {
-					PeriodDaysFrom string
-					PeriodDaysTo   string
-					DeliveryStage  string
+					PeriodDaysFrom string `json:"periodDaysFrom"`
+					PeriodDaysTo   string `json:"periodDaysTo"`
+					DeliveryStage  string `json:"deliveryStage"`
 				}{
 					PeriodDaysFrom: strconv.Itoa(lastDelivery.PeriodDaysFrom),
 					PeriodDaysTo:   strconv.Itoa(lastDelivery.PeriodDaysTo),
@@ -132,8 +259,8 @@ func (s *SessionService) BuildSessionRules(
 			rules.RulesList = append(rules.RulesList, models.RuleBlock{
 				Rule: rule.Id,
 				Args: struct {
-					StartCost       string
-					MaxContractCost string
+					StartCost       string `json:"startCost"`
+					MaxContractCost string `json:"maxContractCost"`
 				}{
 					StartCost:       fmt.Sprintf("%f", csRaw.StartCost),
 					MaxContractCost: fmt.Sprintf("%f", csRaw.ContractCost),
@@ -141,15 +268,15 @@ func (s *SessionService) BuildSessionRules(
 			})
 		case models.TECHNICAL_SPECIFICATION:
 			type Property struct {
-				Name  string
-				Value string
+				Name  string `json:"name"`
+				Value string `json:"value"`
 			}
 
 			type Item struct {
-				Name        string
-				Properties  []Property
-				Quantity    string
-				CostPerUnit string
+				Name        string     `json:"name"`
+				Properties  []Property `json:"properties"`
+				Quantity    string     `json:"quantity"`
+				CostPerUnit string     `json:"costPerUnit"`
 			}
 
 			itemsProperties := make([]Item, 0, len(csRaw.Items))
@@ -175,10 +302,10 @@ func (s *SessionService) BuildSessionRules(
 			rules.RulesList = append(rules.RulesList, models.RuleBlock{
 				Rule: rule.Id,
 				Args: struct {
-					Text  string
-					Items []Item
+					Text  string `json:"text"`
+					Items []Item `json:"items"`
 				}{
-					Text:  tzStr,
+					Text:  "",
 					Items: itemsProperties,
 				},
 			})
@@ -186,98 +313,4 @@ func (s *SessionService) BuildSessionRules(
 	}
 
 	return rules
-}
-
-func (s *SessionService) CleanString(inputString *string) string {
-	// Удаляем все символы, которые не являются буквами
-	re := regexp.MustCompile(`[^a-zA-Zа-яА-ЯёЁ\s]`)
-	cleanedString := re.ReplaceAllString(*inputString, "")
-
-	// Удаляем лишние пробелы
-	cleanedString = strings.TrimSpace(cleanedString)
-	re = regexp.MustCompile(`\s+`)
-	cleanedString = re.ReplaceAllString(cleanedString, " ")
-
-	// Приводим строку к нижнему регистру
-	cleanedString = strings.ToLower(cleanedString)
-
-	return cleanedString
-}
-
-func convertPDFToText(pdfData *[]byte) string {
-	r, err := pdf.NewReader(bytes.NewReader(*pdfData), 0)
-	if err != nil {
-		return ""
-	}
-
-	var text strings.Builder
-	totalPage := r.NumPage()
-
-	for pageIndex := 1; pageIndex <= totalPage; pageIndex++ {
-		p := r.Page(pageIndex)
-		if p.V.IsNull() {
-			continue
-		}
-
-		content, err := p.GetPlainText(nil)
-		if err != nil {
-			return ""
-		}
-
-		text.WriteString(content)
-	}
-
-	return text.String()
-}
-
-func ConvertDocxToText(docxBytes []byte) (string, error) {
-	// Сохраняем байтовый массив во временный файл, поскольку библиотека требует путь к файлу
-	tempFile := "temp.docx"
-	err := ioutil.WriteFile(tempFile, docxBytes, 0644)
-	if err != nil {
-		return "", fmt.Errorf("не удалось записать временный файл: %v", err)
-	}
-
-	// Открываем DOCX файл
-	doc, err := docx.Open(tempFile)
-	if err != nil {
-		return "", fmt.Errorf("не удалось прочитать DOCX: %v", err)
-	}
-	defer doc.Close()
-
-	// Извлекаем текст
-	var textContent bytes.Buffer
-	paragraphs, err := doc.Paragraphs()
-	if err != nil {
-		return "", fmt.Errorf("ошибка при извлечении параграфов: %v", err)
-	}
-	for _, para := range paragraphs {
-		textContent.WriteString(para)
-		textContent.WriteString("\n") // добавляем перенос строки между абзацами
-	}
-
-	return textContent.String(), nil
-}
-
-func (s *SessionService) ConvertFileToText(fileData *[]byte, fileName string) string {
-	if strings.HasSuffix(fileName, ".pdf") {
-		return convertPDFToText(fileData)
-	}
-	if strings.HasSuffix(fileName, ".docx") {
-		return convertDOCXToText(fileData)
-	}
-
-	return ""
-}
-
-func (s *SessionService) ParseDocs(cs *models.CSBlock) (contractStr, tzStr string) {
-	for fileName, file := range cs.Files {
-		if strings.HasPrefix(fileName, "tz") {
-			tzStr = s.ConvertFileToText(&file, fileName)
-		}
-		if strings.HasPrefix(fileName, "contract") {
-			contractStr = s.ConvertFileToText(&file, fileName)
-		}
-	}
-	return contractStr, tzStr
 }

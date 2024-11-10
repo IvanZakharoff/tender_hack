@@ -61,8 +61,9 @@ func (h *Handler) CheckSessions(w http.ResponseWriter, r *http.Request) {
 
 	buf.FilePools = filePoolsBlock
 
-	h.SessionService.ProcessSessions(buf)
+	results := h.SessionService.ProcessSessions(buf)
+	resultsJSON, err := json.Marshal(results)
 
 	// Отправляем успешный ответ
-	w.Write([]byte("Публикации катировочных сессий успешно приняты на проверку!"))
+	w.Write(resultsJSON)
 }
