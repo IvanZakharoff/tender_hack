@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceRoot}/backend/tender_warden/cmd",
+            "cwd":  "${workspaceRoot}/backend/tender_warden"
+        },
+        {
             "name": "Отладчик Python: Текущий файл",
             "type": "debugpy",
             "request": "launch",
@@ -12,7 +20,7 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "ml-service",
+            "name": "llm-service",
             "type": "debugpy",
             "request": "launch",
             "module": "flask",
@@ -23,8 +31,22 @@
                 "--port=5000"
             ],
             "jinja": true,
-            "cwd": "${workspaceFolder}/ml-service",
+            "cwd": "${workspaceFolder}/llm-service",
             "envFile": "${workspaceFolder}/.env"
-        }
+        },
+        {
+            "name": "ng serve",
+            "type": "chrome",
+            "request": "launch",
+            "preLaunchTask": "npm: start",
+            "url": "http://localhost:4200/"
+          },
+          {
+            "name": "ng test",
+            "type": "chrome",
+            "request": "launch",
+            "preLaunchTask": "npm: test",
+            "url": "http://localhost:9876/debug.html"
+          }
     ]
 }

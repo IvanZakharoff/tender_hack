@@ -1,0 +1,3792 @@
+[
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092338.793371198.",
+        "isLastLevel": true,
+        "skuCount": 3186,
+        "name": "Бланки",
+        "id": 793371198
+      },
+      {
+        "treePathId": ".1.72092338.793371200.",
+        "isLastLevel": true,
+        "skuCount": 2782,
+        "name": "Блокноты",
+        "id": 793371200
+      },
+      {
+        "treePathId": ".1.72092338.793371212.",
+        "isLastLevel": true,
+        "skuCount": 2526,
+        "name": "Дипломы, грамоты, открытки (кроме почтовых)",
+        "id": 793371212
+      },
+      {
+        "treePathId": ".1.72092338.793371202.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Ежедневники, еженедельники",
+        "id": 793371202
+      },
+      {
+        "treePathId": ".1.72092338.793371206.",
+        "isLastLevel": true,
+        "skuCount": 1389,
+        "name": "Календари бумажные",
+        "id": 793371206
+      },
+      {
+        "treePathId": ".1.72092338.793371208.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Книги учетные",
+        "id": 793371208
+      },
+      {
+        "treePathId": ".1.72092338.793371214.",
+        "isLastLevel": true,
+        "skuCount": 443,
+        "name": "Книжки записные",
+        "id": 793371214
+      },
+      {
+        "treePathId": ".1.72092338.72096467.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Конверты и другие изделия почтовые",
+        "id": 72096467
+      },
+      {
+        "treePathId": ".1.72092338.793371204.",
+        "isLastLevel": true,
+        "skuCount": 317,
+        "name": "Планинги",
+        "id": 793371204
+      },
+      {
+        "treePathId": ".1.72092338.793371210.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Тетради",
+        "id": 793371210
+      }
+    ],
+    "treePathId": ".1.72092338.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Бумажная продукция",
+    "id": 72092338
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.793306826.793306384.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Вещества неорганические",
+        "id": 793306384
+      },
+      {
+        "treePathId": ".1.793306826.793306827.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Вещества органические",
+        "id": 793306827
+      },
+      {
+        "treePathId": ".1.793306826.793306385.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Материалы и реагенты для водоочистки и водоподготовки",
+        "id": 793306385
+      },
+      {
+        "treePathId": ".1.793306826.793373824.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Реагенты для нейтрализации запахов",
+        "id": 793373824
+      },
+      {
+        "treePathId": ".1.793306826.793360915.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Реагенты сложные диагностические или лабораторные",
+        "id": 793360915
+      },
+      {
+        "treePathId": ".1.793306826.793373828.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Стабилизаторы химические",
+        "id": 793373828
+      },
+      {
+        "treePathId": ".1.793306826.793374782.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Энзимы для ремедиации",
+        "id": 793374782
+      }
+    ],
+    "treePathId": ".1.793306826.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Вещества химические",
+    "id": 793306826
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092570.793368166.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Аквариумы и аквариумное оборудование",
+        "id": 793368166
+      },
+      {
+        "treePathId": ".1.72092570.793368168.",
+        "isLastLevel": true,
+        "skuCount": 68,
+        "name": "Животные",
+        "id": 793368168
+      },
+      {
+        "treePathId": ".1.72092570.793368170.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Корма для животных",
+        "id": 793368170
+      },
+      {
+        "treePathId": ".1.72092570.793410306.",
+        "isLastLevel": true,
+        "skuCount": 16,
+        "name": "Материалы расходные для ветеринарных лабораторий",
+        "id": 793410306
+      },
+      {
+        "treePathId": ".1.72092570.793368182.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Метатели пневматические газобаллонные ветеринарные",
+        "id": 793368182
+      },
+      {
+        "treePathId": ".1.72092570.793368172.",
+        "isLastLevel": true,
+        "skuCount": 83,
+        "name": "Наполнители для содержания животных",
+        "id": 793368172
+      },
+      {
+        "treePathId": ".1.72092570.793368176.",
+        "isLastLevel": true,
+        "skuCount": 307,
+        "name": "Оборудование ветеринарное",
+        "id": 793368176
+      },
+      {
+        "treePathId": ".1.72092570.793368178.",
+        "isLastLevel": true,
+        "skuCount": 643,
+        "name": "Средства лекарственные для животных",
+        "id": 793368178
+      },
+      {
+        "treePathId": ".1.72092570.793368174.",
+        "isLastLevel": true,
+        "skuCount": 567,
+        "name": "Средства по уходу и содержанию животных",
+        "id": 793368174
+      }
+    ],
+    "treePathId": ".1.72092570.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Зоотовары и ветеринарные товары",
+    "id": 72092570
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.1100033.793372788.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Бумага",
+        "id": 793372788
+      },
+      {
+        "treePathId": ".1.1100033.793394390.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Вырубщики карт",
+        "id": 793394390
+      }
+    ],
+    "treePathId": ".1.1100033.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Изделия канцелярские, бумага и бумажные изделия",
+    "id": 1100033
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72096316.793369984.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Белье постельное",
+        "id": 793369984
+      },
+      {
+        "treePathId": ".1.72096316.793369970.",
+        "isLastLevel": true,
+        "skuCount": 3,
+        "name": "Вата хлопчатобумажная одежная",
+        "id": 793369970
+      },
+      {
+        "treePathId": ".1.72096316.793369972.",
+        "isLastLevel": true,
+        "skuCount": 6,
+        "name": "Волокна химические",
+        "id": 793369972
+      },
+      {
+        "treePathId": ".1.72096316.793405324.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Дублированные материалы (комплексные) для швейного производства",
+        "id": 793405324
+      },
+      {
+        "treePathId": ".1.72096316.793369982.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Изделия текстильные бытовые прочие",
+        "id": 793369982
+      },
+      {
+        "treePathId": ".1.72096316.793369986.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Ковры, ковровые изделия, ковровые покрытия",
+        "id": 793369986
+      },
+      {
+        "treePathId": ".1.72096316.793369976.",
+        "isLastLevel": true,
+        "skuCount": 2,
+        "name": "Красители текстильные",
+        "id": 793369976
+      },
+      {
+        "treePathId": ".1.72096316.793395282.",
+        "isLastLevel": true,
+        "skuCount": 2,
+        "name": "Кружево",
+        "id": 793395282
+      },
+      {
+        "treePathId": ".1.72096316.793369978.",
+        "isLastLevel": true,
+        "skuCount": 10,
+        "name": "Ленты технические текстильные",
+        "id": 793369978
+      },
+      {
+        "treePathId": ".1.72096316.793405326.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Наполнители для швейных изделий",
+        "id": 793405326
+      },
+      {
+        "treePathId": ".1.72096316.793369974.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Нити текстильные",
+        "id": 793369974
+      },
+      {
+        "treePathId": ".1.72096316.793369980.",
+        "isLastLevel": true,
+        "skuCount": 1415,
+        "name": "Пряжа",
+        "id": 793369980
+      },
+      {
+        "treePathId": ".1.72096316.793369988.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Ткани",
+        "id": 793369988
+      }
+    ],
+    "treePathId": ".1.72096316.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Изделия текстильные",
+    "id": 72096316
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092568.793364614.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Карты",
+        "id": 793364614
+      },
+      {
+        "treePathId": ".1.72092568.793364616.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Литература для обучения",
+        "id": 793364616
+      }
+    ],
+    "treePathId": ".1.72092568.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Литература и полиграфическая продукция",
+    "id": 72092568
+  },
+  {
+    "subCategories": [],
+    "treePathId": ".1.793409828.",
+    "isLastLevel": true,
+    "skuCount": null,
+    "name": "Материалы из натуральной кожи",
+    "id": 793409828
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092569.793333223.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": " Мебель детская (кроме ученической)",
+        "id": 793333223
+      },
+      {
+        "treePathId": ".1.72092569.72092685.",
+        "isLastLevel": true,
+        "skuCount": 451,
+        "name": "Банкетки",
+        "id": 72092685
+      },
+      {
+        "treePathId": ".1.72092569.793336632.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Вешалки для одежды, секции гардеробные",
+        "id": 793336632
+      },
+      {
+        "treePathId": ".1.72092569.72092680.",
+        "isLastLevel": true,
+        "skuCount": 1315,
+        "name": "Витрины",
+        "id": 72092680
+      },
+      {
+        "treePathId": ".1.72092569.793358317.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Диваны, секции диванные",
+        "id": 793358317
+      },
+      {
+        "treePathId": ".1.72092569.793410134.",
+        "isLastLevel": true,
+        "skuCount": 16,
+        "name": "Зонты уличные",
+        "id": 793410134
+      },
+      {
+        "treePathId": ".1.72092569.793358427.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Кресла",
+        "id": 793358427
+      },
+      {
+        "treePathId": ".1.72092569.793360567.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Кровати",
+        "id": 793360567
+      },
+      {
+        "treePathId": ".1.72092569.72092686.",
+        "isLastLevel": true,
+        "skuCount": 30,
+        "name": "Кушетки",
+        "id": 72092686
+      },
+      {
+        "treePathId": ".1.72092569.793366628.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Мебель для кухни",
+        "id": 793366628
+      },
+      {
+        "treePathId": ".1.72092569.793373072.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Мебель для экспонирования",
+        "id": 793373072
+      },
+      {
+        "treePathId": ".1.72092569.793337952.",
+        "isLastLevel": true,
+        "skuCount": 42,
+        "name": "Оборудование для голосования",
+        "id": 793337952
+      },
+      {
+        "treePathId": ".1.72092569.793358711.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Перегородки",
+        "id": 793358711
+      },
+      {
+        "treePathId": ".1.72092569.793358663.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Полки, этажерки",
+        "id": 793358663
+      },
+      {
+        "treePathId": ".1.72092569.793337292.",
+        "isLastLevel": true,
+        "skuCount": 444,
+        "name": "Пуфы",
+        "id": 793337292
+      },
+      {
+        "treePathId": ".1.72092569.793335422.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Сейфы",
+        "id": 793335422
+      },
+      {
+        "treePathId": ".1.72092569.72092681.",
+        "isLastLevel": true,
+        "skuCount": 826,
+        "name": "Скамьи",
+        "id": 72092681
+      },
+      {
+        "treePathId": ".1.72092569.793336302.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Стеллажи",
+        "id": 793336302
+      },
+      {
+        "treePathId": ".1.72092569.793358393.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Стенды",
+        "id": 793358393
+      },
+      {
+        "treePathId": ".1.72092569.793337402.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Стойки",
+        "id": 793337402
+      },
+      {
+        "treePathId": ".1.72092569.793359113.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Столы",
+        "id": 793359113
+      },
+      {
+        "treePathId": ".1.72092569.793333882.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Стулья",
+        "id": 793333882
+      },
+      {
+        "treePathId": ".1.72092569.793358223.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Табуреты, табуреты-стремянки",
+        "id": 793358223
+      },
+      {
+        "treePathId": ".1.72092569.793358127.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Тумбы",
+        "id": 793358127
+      },
+      {
+        "treePathId": ".1.72092569.793374992.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Тумбы, комоды, консоли",
+        "id": 793374992
+      },
+      {
+        "treePathId": ".1.72092569.793343342.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Фурнитура мебельная",
+        "id": 793343342
+      },
+      {
+        "treePathId": ".1.72092569.793333222.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Шкафы  ",
+        "id": 793333222
+      }
+    ],
+    "treePathId": ".1.72092569.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Мебель общего назначения",
+    "id": 72092569
+  },
+  {
+    "subCategories": [],
+    "treePathId": ".1.1100142.",
+    "isLastLevel": true,
+    "skuCount": 2983,
+    "name": "Наградная продукция",
+    "id": 1100142
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092572.793409726.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Здания, сооружения, помещения",
+        "id": 793409726
+      },
+      {
+        "treePathId": ".1.72092572.793370092.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Помещения",
+        "id": 793370092
+      },
+      {
+        "treePathId": ".1.72092572.793370096.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Участки земельные",
+        "id": 793370096
+      }
+    ],
+    "treePathId": ".1.72092572.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Недвижимость",
+    "id": 72092572
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72095475.793369950.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Газ горючий природный",
+        "id": 793369950
+      },
+      {
+        "treePathId": ".1.72095475.793369948.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Нефть сырая",
+        "id": 793369948
+      }
+    ],
+    "treePathId": ".1.72095475.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Нефть сырая и газ природный",
+    "id": 72095475
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72095203.793368496.",
+        "isLastLevel": true,
+        "skuCount": 14,
+        "name": "Агломерационные конвейерные машины",
+        "id": 793368496
+      },
+      {
+        "treePathId": ".1.72095203.793368386.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Агрегаты консольно-шлюзовые (краны)",
+        "id": 793368386
+      },
+      {
+        "treePathId": ".1.72095203.793368398.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Агрегаты машинные комплексные",
+        "id": 793368398
+      },
+      {
+        "treePathId": ".1.72095203.793368494.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Аппараты с механическим перемешивающим устройством",
+        "id": 793368494
+      },
+      {
+        "treePathId": ".1.72095203.793368478.",
+        "isLastLevel": true,
+        "skuCount": 12,
+        "name": "Асфальтобетонные заводы мобильные",
+        "id": 793368478
+      },
+      {
+        "treePathId": ".1.72095203.793368396.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Батареи выпарные",
+        "id": 793368396
+      },
+      {
+        "treePathId": ".1.72095203.793368490.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Бегуны смесительные",
+        "id": 793368490
+      },
+      {
+        "treePathId": ".1.72095203.793368400.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Бутобои",
+        "id": 793368400
+      },
+      {
+        "treePathId": ".1.72095203.793368452.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Вагоноопрокидыватели",
+        "id": 793368452
+      },
+      {
+        "treePathId": ".1.72095203.793368468.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Вибропробоотборники",
+        "id": 793368468
+      },
+      {
+        "treePathId": ".1.72095203.793368346.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Вибростенды для испытаний",
+        "id": 793368346
+      },
+      {
+        "treePathId": ".1.72095203.793368406.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Вышки нефтяной установки",
+        "id": 793368406
+      },
+      {
+        "treePathId": ".1.72095203.793368446.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Газгольдеры",
+        "id": 793368446
+      },
+      {
+        "treePathId": ".1.72095203.793368474.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Деаэраторы термические",
+        "id": 793368474
+      },
+      {
+        "treePathId": ".1.72095203.793368378.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Диспергаторы универсальные",
+        "id": 793368378
+      },
+      {
+        "treePathId": ".1.72095203.793368480.",
+        "isLastLevel": true,
+        "skuCount": 3,
+        "name": "Дозаторы",
+        "id": 793368480
+      },
+      {
+        "treePathId": ".1.72095203.793368348.",
+        "isLastLevel": true,
+        "skuCount": 10,
+        "name": "Емкости промышленные",
+        "id": 793368348
+      },
+      {
+        "treePathId": ".1.72095203.793368426.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Интерферометры оптические",
+        "id": 793368426
+      },
+      {
+        "treePathId": ".1.72095203.793368454.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Испарители промышленные",
+        "id": 793368454
+      },
+      {
+        "treePathId": ".1.72095203.793368438.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Каландры",
+        "id": 793368438
+      },
+      {
+        "treePathId": ".1.72095203.793368352.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Камеры безэховые",
+        "id": 793368352
+      },
+      {
+        "treePathId": ".1.72095203.793373802.",
+        "isLastLevel": true,
+        "skuCount": 2,
+        "name": "Комплексы робототехнические промышленные",
+        "id": 793373802
+      },
+      {
+        "treePathId": ".1.72095203.793375054.",
+        "isLastLevel": true,
+        "skuCount": 53,
+        "name": "Комплектующие к технологическому оборудованию",
+        "id": 793375054
+      },
+      {
+        "treePathId": ".1.72095203.793368376.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Конвертеры замещения",
+        "id": 793368376
+      },
+      {
+        "treePathId": ".1.72095203.793368450.",
+        "isLastLevel": true,
+        "skuCount": 4,
+        "name": "Координатно-измерительная машина (КИМ)",
+        "id": 793368450
+      },
+      {
+        "treePathId": ".1.72095203.793368358.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Котлы паровые",
+        "id": 793368358
+      },
+      {
+        "treePathId": ".1.72095203.793368382.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Котлы рафинировочные",
+        "id": 793368382
+      },
+      {
+        "treePathId": ".1.72095203.793368380.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Котлы содорегенерационные",
+        "id": 793368380
+      },
+      {
+        "treePathId": ".1.72095203.793368448.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Котлы-утилизаторы",
+        "id": 793368448
+      },
+      {
+        "treePathId": ".1.72095203.793368420.",
+        "isLastLevel": true,
+        "skuCount": 6,
+        "name": "Краны козловые",
+        "id": 793368420
+      },
+      {
+        "treePathId": ".1.72095203.793368484.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Лазеры производственные",
+        "id": 793368484
+      },
+      {
+        "treePathId": ".1.72095203.793368394.",
+        "isLastLevel": true,
+        "skuCount": 29,
+        "name": "Линии раздачи",
+        "id": 793368394
+      },
+      {
+        "treePathId": ".1.72095203.793368416.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Машины судопогрузочные",
+        "id": 793368416
+      },
+      {
+        "treePathId": ".1.72095203.793368384.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Мельницы промышленные",
+        "id": 793368384
+      },
+      {
+        "treePathId": ".1.72095203.793368392.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Модули пиролиза",
+        "id": 793368392
+      },
+      {
+        "treePathId": ".1.72095203.793368390.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Мотураторы",
+        "id": 793368390
+      },
+      {
+        "treePathId": ".1.72095203.793368370.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Насосы воздушные, вакуумные, турбины промышленные",
+        "id": 793368370
+      },
+      {
+        "treePathId": ".1.72095203.793368462.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для добычи полезных ископаемых",
+        "id": 793368462
+      },
+      {
+        "treePathId": ".1.72095203.793368460.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для металлургии",
+        "id": 793368460
+      },
+      {
+        "treePathId": ".1.72095203.793368512.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для механообработки",
+        "id": 793368512
+      },
+      {
+        "treePathId": ".1.72095203.793368466.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для обработки резины и пластмасс",
+        "id": 793368466
+      },
+      {
+        "treePathId": ".1.72095203.793368366.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для обработки шкур, сырых кож и выделанной кожи",
+        "id": 793368366
+      },
+      {
+        "treePathId": ".1.72095203.793368458.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для приготовления кормов для животных",
+        "id": 793368458
+      },
+      {
+        "treePathId": ".1.72095203.793368364.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для производства бумаги и картона",
+        "id": 793368364
+      },
+      {
+        "treePathId": ".1.72095203.793368482.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для промышленной переработки или производства пищевых продуктов или напитков",
+        "id": 793368482
+      },
+      {
+        "treePathId": ".1.72095203.793368418.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Оборудование для разгрузки и транспортировки твердого топлива с системами аспирации",
+        "id": 793368418
+      },
+      {
+        "treePathId": ".1.72095203.793368498.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для текстильного и швейного производства",
+        "id": 793368498
+      },
+      {
+        "treePathId": ".1.72095203.793368472.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для утилизации и переработки мусора",
+        "id": 793368472
+      },
+      {
+        "treePathId": ".1.72095203.793368368.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для фильтрования или очистки газов",
+        "id": 793368368
+      },
+      {
+        "treePathId": ".1.72095203.793368356.",
+        "isLastLevel": true,
+        "skuCount": 12,
+        "name": "Оборудование емкостное",
+        "id": 793368356
+      },
+      {
+        "treePathId": ".1.72095203.793368518.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование производственное автосервисов",
+        "id": 793368518
+      },
+      {
+        "treePathId": ".1.72095203.793410242.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Оборудование производственное прочее",
+        "id": 793410242
+      },
+      {
+        "treePathId": ".1.72095203.793368510.",
+        "isLastLevel": true,
+        "skuCount": 1504,
+        "name": "Оборудование производственное прочее...",
+        "id": 793368510
+      },
+      {
+        "treePathId": ".1.72095203.793368514.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование технологическое для бытового обслуживания",
+        "id": 793368514
+      },
+      {
+        "treePathId": ".1.72095203.793368516.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование технологическое для общественного питания",
+        "id": 793368516
+      },
+      {
+        "treePathId": ".1.72095203.793368414.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование холодильное и морозильное промышленное",
+        "id": 793368414
+      },
+      {
+        "treePathId": ".1.72095203.793368504.",
+        "isLastLevel": true,
+        "skuCount": 8,
+        "name": "Объекты торговые нестационарные",
+        "id": 793368504
+      },
+      {
+        "treePathId": ".1.72095203.793368374.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Окислители промышленного назначения",
+        "id": 793368374
+      },
+      {
+        "treePathId": ".1.72095203.793368444.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Охладители газов",
+        "id": 793368444
+      },
+      {
+        "treePathId": ".1.72095203.793368422.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Печи и камеры промышленные",
+        "id": 793368422
+      },
+      {
+        "treePathId": ".1.72095203.793368428.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Печи одноподовые газовые",
+        "id": 793368428
+      },
+      {
+        "treePathId": ".1.72095203.793368430.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Печи электрические с роликовым подом",
+        "id": 793368430
+      },
+      {
+        "treePathId": ".1.72095203.793368502.",
+        "isLastLevel": true,
+        "skuCount": 3,
+        "name": "Пленка радиографическая промышленная",
+        "id": 793368502
+      },
+      {
+        "treePathId": ".1.72095203.793368492.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Пресс-ножницы",
+        "id": 793368492
+      },
+      {
+        "treePathId": ".1.72095203.793375056.",
+        "isLastLevel": true,
+        "skuCount": 6,
+        "name": "Приводы",
+        "id": 793375056
+      },
+      {
+        "treePathId": ".1.72095203.793368372.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Пуансонные прессы",
+        "id": 793368372
+      },
+      {
+        "treePathId": ".1.72095203.793368412.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Пылеуловители промышленные",
+        "id": 793368412
+      },
+      {
+        "treePathId": ".1.72095203.793368424.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Резервуары для нефти, нефтепродуктов и прочих жидкостей",
+        "id": 793368424
+      },
+      {
+        "treePathId": ".1.72095203.793368410.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Сгустители промышленные",
+        "id": 793368410
+      },
+      {
+        "treePathId": ".1.72095203.793368442.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Сепараторы льяльных вод",
+        "id": 793368442
+      },
+      {
+        "treePathId": ".1.72095203.793368402.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Сепараторы нефтегазовые",
+        "id": 793368402
+      },
+      {
+        "treePathId": ".1.72095203.793368404.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Сепараторы промышленные",
+        "id": 793368404
+      },
+      {
+        "treePathId": ".1.72095203.793368360.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Системы инженерных коммуникаций на производстве",
+        "id": 793368360
+      },
+      {
+        "treePathId": ".1.72095203.793368408.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Системы пылеподавления",
+        "id": 793368408
+      },
+      {
+        "treePathId": ".1.72095203.793368486.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Составные части производственного оборудования",
+        "id": 793368486
+      },
+      {
+        "treePathId": ".1.72095203.793368464.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Станки для перемотки кабеля",
+        "id": 793368464
+      },
+      {
+        "treePathId": ".1.72095203.793368432.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Сушилки ленточные",
+        "id": 793368432
+      },
+      {
+        "treePathId": ".1.72095203.793368350.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Таблетмашины",
+        "id": 793368350
+      },
+      {
+        "treePathId": ".1.72095203.793368470.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Теплогенераторы",
+        "id": 793368470
+      },
+      {
+        "treePathId": ".1.72095203.793368500.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Термометры технические",
+        "id": 793368500
+      },
+      {
+        "treePathId": ".1.72095203.793368508.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Товары и оборудование, закупаемые в рамках проекта «Московские технические мастерские»",
+        "id": 793368508
+      },
+      {
+        "treePathId": ".1.72095203.793368456.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Установки для очистки вод судовые",
+        "id": 793368456
+      },
+      {
+        "treePathId": ".1.72095203.793368488.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Установки факельные",
+        "id": 793368488
+      },
+      {
+        "treePathId": ".1.72095203.793368434.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Устройства брызгальные",
+        "id": 793368434
+      },
+      {
+        "treePathId": ".1.72095203.793368362.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Фильтры промышленные",
+        "id": 793368362
+      },
+      {
+        "treePathId": ".1.72095203.793368354.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Центрифуги промышленные",
+        "id": 793368354
+      },
+      {
+        "treePathId": ".1.72095203.793368440.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Циклоны промышленные",
+        "id": 793368440
+      },
+      {
+        "treePathId": ".1.72095203.793368388.",
+        "isLastLevel": true,
+        "skuCount": 2,
+        "name": "Шкафы сушильные промышленные",
+        "id": 793368388
+      },
+      {
+        "treePathId": ".1.72095203.793368476.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Шумоглушители паровые (газовые)",
+        "id": 793368476
+      },
+      {
+        "treePathId": ".1.72095203.793368436.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Эмульгаторы",
+        "id": 793368436
+      }
+    ],
+    "treePathId": ".1.72095203.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Оборудование производственное и технологическое",
+    "id": 72095203
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72095200.793369446.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Газы нефтяные",
+        "id": 793369446
+      },
+      {
+        "treePathId": ".1.72095200.793369450.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Газы промышленные",
+        "id": 793369450
+      },
+      {
+        "treePathId": ".1.72095200.793369458.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Жидкости технологические",
+        "id": 793369458
+      },
+      {
+        "treePathId": ".1.72095200.793369460.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Материалы горюче-смазочные",
+        "id": 793369460
+      },
+      {
+        "treePathId": ".1.72095200.793369452.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование и приборы осветительные, лампы",
+        "id": 793369452
+      },
+      {
+        "treePathId": ".1.72095200.793369456.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование энергетическое",
+        "id": 793369456
+      },
+      {
+        "treePathId": ".1.72095200.793369448.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Парафин нефтяной",
+        "id": 793369448
+      },
+      {
+        "treePathId": ".1.72095200.793369454.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Расходные материалы и комплектующие для энергетического оборудования",
+        "id": 793369454
+      }
+    ],
+    "treePathId": ".1.72095200.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Оборудование энергетическое, осветительные приборы, горюче-смазочные материалы",
+    "id": 72095200
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72095205.793370578.",
+        "isLastLevel": true,
+        "skuCount": 111,
+        "name": "Обувь валяная",
+        "id": 793370578
+      },
+      {
+        "treePathId": ".1.72095205.793370576.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Обувь с верхом из кожи",
+        "id": 793370576
+      },
+      {
+        "treePathId": ".1.72095205.793370574.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Обувь с верхом из резины или пластмассы",
+        "id": 793370574
+      },
+      {
+        "treePathId": ".1.72095205.793370572.",
+        "isLastLevel": true,
+        "skuCount": 740,
+        "name": "Обувь с верхом из текстильных материалов",
+        "id": 793370572
+      },
+      {
+        "treePathId": ".1.72095205.793370580.",
+        "isLastLevel": true,
+        "skuCount": 625,
+        "name": "Обувь с защитным металлическим подноском",
+        "id": 793370580
+      },
+      {
+        "treePathId": ".1.72095205.793370568.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Обувь специальная",
+        "id": 793370568
+      },
+      {
+        "treePathId": ".1.72095205.793370570.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Обувь спортивная",
+        "id": 793370570
+      },
+      {
+        "treePathId": ".1.72095205.793370566.",
+        "isLastLevel": true,
+        "skuCount": 683,
+        "name": "Обувь форменная для взрослых",
+        "id": 793370566
+      },
+      {
+        "treePathId": ".1.72095205.793370582.",
+        "isLastLevel": true,
+        "skuCount": 196,
+        "name": "Обувь форменная для детей и подростков",
+        "id": 793370582
+      }
+    ],
+    "treePathId": ".1.72095205.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Обувь",
+    "id": 72095205
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72095204.793373078.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Комплект защитный общевойсковой",
+        "id": 793373078
+      },
+      {
+        "treePathId": ".1.72095204.793396508.",
+        "isLastLevel": true,
+        "skuCount": 5,
+        "name": "Ленты текстильные",
+        "id": 793396508
+      },
+      {
+        "treePathId": ".1.72095204.72095263.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Одежда для взрослых",
+        "id": 72095263
+      },
+      {
+        "treePathId": ".1.72095204.72095264.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Одежда для детей",
+        "id": 72095264
+      },
+      {
+        "treePathId": ".1.72095204.72095265.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Одежда для новорожденных",
+        "id": 72095265
+      },
+      {
+        "treePathId": ".1.72095204.793372604.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Одежда санитарная",
+        "id": 793372604
+      },
+      {
+        "treePathId": ".1.72095204.793142262.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Одежда специальная",
+        "id": 793142262
+      },
+      {
+        "treePathId": ".1.72095204.793373080.",
+        "isLastLevel": true,
+        "skuCount": 115,
+        "name": "Перчаточные изделия бытового назначения",
+        "id": 793373080
+      },
+      {
+        "treePathId": ".1.72095204.793316612.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Уборы головные",
+        "id": 793316612
+      },
+      {
+        "treePathId": ".1.72095204.793317382.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Фурнитура швейная",
+        "id": 793317382
+      }
+    ],
+    "treePathId": ".1.72095204.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Одежда (включая форменную), головные уборы, одежда специальная",
+    "id": 72095204
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092277.793295052.",
+        "isLastLevel": true,
+        "skuCount": 15,
+        "name": "Карманы для папок самоклеящиеся",
+        "id": 793295052
+      },
+      {
+        "treePathId": ".1.72092277.793295162.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Картотеки",
+        "id": 793295162
+      },
+      {
+        "treePathId": ".1.72092277.793295272.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Обложки с кольцами для сменных блоков",
+        "id": 793295272
+      },
+      {
+        "treePathId": ".1.72092277.793295273.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Папки адресные",
+        "id": 793295273
+      },
+      {
+        "treePathId": ".1.72092277.793294063.",
+        "isLastLevel": true,
+        "skuCount": 172,
+        "name": "Папки деловые",
+        "id": 793294063
+      },
+      {
+        "treePathId": ".1.72092277.793294723.",
+        "isLastLevel": true,
+        "skuCount": 2011,
+        "name": "Папки картонные",
+        "id": 793294723
+      },
+      {
+        "treePathId": ".1.72092277.793294834.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Папки, системы архивации пластиковые",
+        "id": 793294834
+      },
+      {
+        "treePathId": ".1.72092277.793295274.",
+        "isLastLevel": true,
+        "skuCount": 130,
+        "name": "Регистраторы подвесные",
+        "id": 793295274
+      },
+      {
+        "treePathId": ".1.72092277.793294724.",
+        "isLastLevel": true,
+        "skuCount": 12,
+        "name": "Тележки для папок, регистратур",
+        "id": 793294724
+      }
+    ],
+    "treePathId": ".1.72092277.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Папки, системы архивации документов",
+    "id": 72092277
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72096313.793304842.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Посуда одноразовая",
+        "id": 793304842
+      },
+      {
+        "treePathId": ".1.72096313.793304733.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Посуда столовая, кухонная",
+        "id": 793304733
+      },
+      {
+        "treePathId": ".1.72096313.137009492.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Приборы столовые  кухонные металлические",
+        "id": 137009492
+      },
+      {
+        "treePathId": ".1.72096313.793304843.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Сервизы",
+        "id": 793304843
+      }
+    ],
+    "treePathId": ".1.72096313.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Посуда бытового назначения",
+    "id": 72096313
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72096311.793369842.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Бумага туалетная, бумажные изделия санитарно-гигиенического и хозяйственного назначения",
+        "id": 793369842
+      },
+      {
+        "treePathId": ".1.72096311.793369832.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Изделия абсорбирующие",
+        "id": 793369832
+      },
+      {
+        "treePathId": ".1.72096311.793369836.",
+        "isLastLevel": true,
+        "skuCount": 702,
+        "name": "Полотенца текстильные",
+        "id": 793369836
+      },
+      {
+        "treePathId": ".1.72096311.793369838.",
+        "isLastLevel": true,
+        "skuCount": 290,
+        "name": "Предметы личной гигиены",
+        "id": 793369838
+      },
+      {
+        "treePathId": ".1.72096311.793369840.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Станки и приспособления для бритья",
+        "id": 793369840
+      },
+      {
+        "treePathId": ".1.72096311.793369834.",
+        "isLastLevel": true,
+        "skuCount": 228,
+        "name": "Щетки зубные, щетки для ухода за внешностью",
+        "id": 793369834
+      }
+    ],
+    "treePathId": ".1.72096311.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Предметы гигиены",
+    "id": 72096311
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72095202.793372574.",
+        "isLastLevel": true,
+        "skuCount": 3,
+        "name": "Газосигнализаторы",
+        "id": 793372574
+      },
+      {
+        "treePathId": ".1.72095202.793360673.",
+        "isLastLevel": true,
+        "skuCount": 172,
+        "name": "Датчики",
+        "id": 793360673
+      },
+      {
+        "treePathId": ".1.72095202.793410048.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Датчики акустической эмиссии",
+        "id": 793410048
+      },
+      {
+        "treePathId": ".1.72095202.793375168.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Кабельные датчики утечек жидкостей",
+        "id": 793375168
+      },
+      {
+        "treePathId": ".1.72095202.793359425.",
+        "isLastLevel": true,
+        "skuCount": 322,
+        "name": "Манометры",
+        "id": 793359425
+      },
+      {
+        "treePathId": ".1.72095202.72095251.",
+        "isLastLevel": true,
+        "skuCount": 65,
+        "name": "Приборы учета газа",
+        "id": 72095251
+      },
+      {
+        "treePathId": ".1.72095202.72095252.",
+        "isLastLevel": true,
+        "skuCount": 280,
+        "name": "Приборы учета прочие",
+        "id": 72095252
+      },
+      {
+        "treePathId": ".1.72095202.72095249.",
+        "isLastLevel": true,
+        "skuCount": 185,
+        "name": "Приборы учета тепловой энергии",
+        "id": 72095249
+      },
+      {
+        "treePathId": ".1.72095202.793368288.",
+        "isLastLevel": true,
+        "skuCount": 1023,
+        "name": "Счетчики производства и потребления жидкости",
+        "id": 793368288
+      },
+      {
+        "treePathId": ".1.72095202.72095250.",
+        "isLastLevel": true,
+        "skuCount": 234,
+        "name": "Счетчики электроэнергии",
+        "id": 72095250
+      }
+    ],
+    "treePathId": ".1.72095202.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Приборы учета",
+    "id": 72095202
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72091068.793373836.",
+        "isLastLevel": true,
+        "skuCount": 8,
+        "name": "Альбомы для фотографий",
+        "id": 793373836
+      },
+      {
+        "treePathId": ".1.72091068.793373858.",
+        "isLastLevel": true,
+        "skuCount": 219,
+        "name": "Визитницы пластиковые",
+        "id": 793373858
+      },
+      {
+        "treePathId": ".1.72091068.793373862.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Доски магнитно-маркерные, флипчарты, стенды, таблички, демонстрационные системы",
+        "id": 793373862
+      },
+      {
+        "treePathId": ".1.72091068.793373854.",
+        "isLastLevel": true,
+        "skuCount": 22,
+        "name": "Календари настольные, кроме бумажных",
+        "id": 793373854
+      },
+      {
+        "treePathId": ".1.72091068.793373856.",
+        "isLastLevel": true,
+        "skuCount": 447,
+        "name": "Калькуляторы",
+        "id": 793373856
+      },
+      {
+        "treePathId": ".1.72091068.793373852.",
+        "isLastLevel": true,
+        "skuCount": 281,
+        "name": "Коврики канцелярские",
+        "id": 793373852
+      },
+      {
+        "treePathId": ".1.72091068.793373842.",
+        "isLastLevel": true,
+        "skuCount": 733,
+        "name": "Линейки",
+        "id": 793373842
+      },
+      {
+        "treePathId": ".1.72091068.793373870.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Лотки, диспенсеры, прочие настольные принадлежности",
+        "id": 793373870
+      },
+      {
+        "treePathId": ".1.72091068.793373846.",
+        "isLastLevel": true,
+        "skuCount": 99,
+        "name": "Лупы канцелярские",
+        "id": 793373846
+      },
+      {
+        "treePathId": ".1.72091068.793373868.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Материалы расходные для офиса",
+        "id": 793373868
+      },
+      {
+        "treePathId": ".1.72091068.793373866.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Наборы канцелярские",
+        "id": 793373866
+      },
+      {
+        "treePathId": ".1.72091068.793296707.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Наборы канцелярские",
+        "id": 793296707
+      },
+      {
+        "treePathId": ".1.72091068.793373848.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Ножи, резаки канцелярские",
+        "id": 793373848
+      },
+      {
+        "treePathId": ".1.72091068.793373840.",
+        "isLastLevel": true,
+        "skuCount": 840,
+        "name": "Ножницы канцелярские",
+        "id": 793373840
+      },
+      {
+        "treePathId": ".1.72091068.793369830.",
+        "isLastLevel": true,
+        "skuCount": 335,
+        "name": "Оборудование для маркировки и расходные материалы к нему",
+        "id": 793369830
+      },
+      {
+        "treePathId": ".1.72091068.793373730.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Печатно-штемпельная продукция",
+        "id": 793373730
+      },
+      {
+        "treePathId": ".1.72091068.793373838.",
+        "isLastLevel": true,
+        "skuCount": 147,
+        "name": "Принадлежности для очистки оргтехники",
+        "id": 793373838
+      },
+      {
+        "treePathId": ".1.72091068.793373864.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Принадлежности и материалы расходные для сшивания и переплета документов",
+        "id": 793373864
+      },
+      {
+        "treePathId": ".1.72091068.793373844.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Рамки",
+        "id": 793373844
+      },
+      {
+        "treePathId": ".1.72091068.793374638.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Скрепки, кнопки, зажимы для бумаг",
+        "id": 793374638
+      },
+      {
+        "treePathId": ".1.72091068.793373860.",
+        "isLastLevel": true,
+        "skuCount": 698,
+        "name": "Точилки для карандашей",
+        "id": 793373860
+      },
+      {
+        "treePathId": ".1.72091068.793373850.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Флаги, вымпелы, прочая флажная продукция и принадлежности к ним",
+        "id": 793373850
+      }
+    ],
+    "treePathId": ".1.72091068.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Принадлежности и расходные материалы офисные",
+    "id": 72091068
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092385.793373648.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Принадлежности канцелярские для письма",
+        "id": 793373648
+      },
+      {
+        "treePathId": ".1.72092385.793373646.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Принадлежности канцелярские школьные",
+        "id": 793373646
+      }
+    ],
+    "treePathId": ".1.72092385.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Принадлежности канцелярские",
+    "id": 72092385
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092559.793402066.",
+        "isLastLevel": true,
+        "skuCount": 634,
+        "name": "Витаминно-минеральные комплексы для лечебного питания",
+        "id": 793402066
+      },
+      {
+        "treePathId": ".1.72092559.72092588.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Вода",
+        "id": 72092588
+      },
+      {
+        "treePathId": ".1.72092559.72092579.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Грибы",
+        "id": 72092579
+      },
+      {
+        "treePathId": ".1.72092559.72092587.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Детское питание",
+        "id": 72092587
+      },
+      {
+        "treePathId": ".1.72092559.72092581.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Кондитерские изделия",
+        "id": 72092581
+      },
+      {
+        "treePathId": ".1.72092559.793282514.",
+        "isLastLevel": true,
+        "skuCount": 5,
+        "name": "Концентраты готовых блюд",
+        "id": 793282514
+      },
+      {
+        "treePathId": ".1.72092559.72092584.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Молочная продукция",
+        "id": 72092584
+      },
+      {
+        "treePathId": ".1.72092559.72092586.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Морепродукты (ракообразные, моллюски, морские водоросли)",
+        "id": 72092586
+      },
+      {
+        "treePathId": ".1.72092559.72092582.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Мясо и мясные продукты",
+        "id": 72092582
+      },
+      {
+        "treePathId": ".1.72092559.72092591.",
+        "isLastLevel": true,
+        "skuCount": 158,
+        "name": "Наборы продовольственные",
+        "id": 72092591
+      },
+      {
+        "treePathId": ".1.72092559.72092589.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Напитки",
+        "id": 72092589
+      },
+      {
+        "treePathId": ".1.72092559.72092576.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Овощи и овощные консервы",
+        "id": 72092576
+      },
+      {
+        "treePathId": ".1.72092559.793283063.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Питание детское для детей раннего возраста",
+        "id": 793283063
+      },
+      {
+        "treePathId": ".1.72092559.72092590.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Полуфабрикаты (п/ф), готовые блюда",
+        "id": 72092590
+      },
+      {
+        "treePathId": ".1.72092559.72092575.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Продукция бакалейная",
+        "id": 72092575
+      },
+      {
+        "treePathId": ".1.72092559.793374840.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Пшеница",
+        "id": 793374840
+      },
+      {
+        "treePathId": ".1.72092559.793283173.",
+        "isLastLevel": true,
+        "skuCount": 19,
+        "name": "Пюре картофельное быстрого приготовления",
+        "id": 793283173
+      },
+      {
+        "treePathId": ".1.72092559.793374842.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Рожь",
+        "id": 793374842
+      },
+      {
+        "treePathId": ".1.72092559.72092585.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Рыба и рыбные продукты",
+        "id": 72092585
+      },
+      {
+        "treePathId": ".1.72092559.1116423.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Смеси пищевые",
+        "id": 1116423
+      },
+      {
+        "treePathId": ".1.72092559.793283062.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Снеки ",
+        "id": 793283062
+      },
+      {
+        "treePathId": ".1.72092559.72092577.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Фрукты и фруктовые консервы",
+        "id": 72092577
+      },
+      {
+        "treePathId": ".1.72092559.72092580.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Хлеб и хлебобулочные изделия",
+        "id": 72092580
+      },
+      {
+        "treePathId": ".1.72092559.72092578.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Ягоды и консервы из ягод, кроме варенья и джемов",
+        "id": 72092578
+      },
+      {
+        "treePathId": ".1.72092559.793275364.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Яйца",
+        "id": 793275364
+      }
+    ],
+    "treePathId": ".1.72092559.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Продукты пищевые",
+    "id": 72092559
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092561.793410486.",
+        "isLastLevel": true,
+        "skuCount": 77,
+        "name": "Инструменты и расходные материалы для опломбирования",
+        "id": 793410486
+      },
+      {
+        "treePathId": ".1.72092561.793409798.",
+        "isLastLevel": true,
+        "skuCount": 7,
+        "name": "Оборудование для подавления сигналов радиоуправляемых взрывных устройств",
+        "id": 793409798
+      },
+      {
+        "treePathId": ".1.72092561.793370724.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Системы видеонаблюдения и их элементы",
+        "id": 793370724
+      },
+      {
+        "treePathId": ".1.72092561.793370726.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Системы контроля доступа и оборудование для них",
+        "id": 793370726
+      },
+      {
+        "treePathId": ".1.72092561.793370728.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Системы охранной, пожарной сигнализации и оборудование для них",
+        "id": 793370728
+      },
+      {
+        "treePathId": ".1.72092561.793373054.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Системы охранной, пожарной сигнализации комплектные",
+        "id": 793373054
+      },
+      {
+        "treePathId": ".1.72092561.793370722.",
+        "isLastLevel": true,
+        "skuCount": 44,
+        "name": "Системы управления инженерными системами зданий и сооружений",
+        "id": 793370722
+      },
+      {
+        "treePathId": ".1.72092561.793370720.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Средства и системы для предотвращения террористической деятельности",
+        "id": 793370720
+      },
+      {
+        "treePathId": ".1.72092561.793370714.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Средства обеспечения транспортной безопасности",
+        "id": 793370714
+      }
+    ],
+    "treePathId": ".1.72092561.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Системы охраны, наблюдения, обеспечения безопасности",
+    "id": 72092561
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72096210.793371974.",
+        "isLastLevel": true,
+        "skuCount": 7,
+        "name": "Аппараты абразивоструйные (пескоструйные)",
+        "id": 793371974
+      },
+      {
+        "treePathId": ".1.72096210.793375038.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Бетононасосы передвижные",
+        "id": 793375038
+      },
+      {
+        "treePathId": ".1.72096210.793371988.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Бетоноукладчики самоходные",
+        "id": 793371988
+      },
+      {
+        "treePathId": ".1.72096210.793371992.",
+        "isLastLevel": true,
+        "skuCount": 2,
+        "name": "Бурильно-крановые установки",
+        "id": 793371992
+      },
+      {
+        "treePathId": ".1.72096210.793371976.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Жатки очесывающие",
+        "id": 793371976
+      },
+      {
+        "treePathId": ".1.72096210.793371986.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Землевозы",
+        "id": 793371986
+      },
+      {
+        "treePathId": ".1.72096210.793371978.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Комбайны зерноуборочные",
+        "id": 793371978
+      },
+      {
+        "treePathId": ".1.72096210.793371984.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Миксеры-аэраторы понтонные",
+        "id": 793371984
+      },
+      {
+        "treePathId": ".1.72096210.793371998.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Навесное оборудование для спецтехники",
+        "id": 793371998
+      },
+      {
+        "treePathId": ".1.72096210.793371996.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование, инвентарь и расходные материалы для ЖКХ",
+        "id": 793371996
+      },
+      {
+        "treePathId": ".1.72096210.793371994.",
+        "isLastLevel": true,
+        "skuCount": 2780,
+        "name": "Прочее оборудование и инвентарь для ЖКХ",
+        "id": 793371994
+      },
+      {
+        "treePathId": ".1.72096210.793371980.",
+        "isLastLevel": true,
+        "skuCount": 2,
+        "name": "Разбрасыватели минеральных удобрений",
+        "id": 793371980
+      },
+      {
+        "treePathId": ".1.72096210.793372006.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Реагенты противогололедные",
+        "id": 793372006
+      },
+      {
+        "treePathId": ".1.72096210.793371982.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Сеялки",
+        "id": 793371982
+      },
+      {
+        "treePathId": ".1.72096210.793371990.",
+        "isLastLevel": true,
+        "skuCount": 3,
+        "name": "Скреперы",
+        "id": 793371990
+      },
+      {
+        "treePathId": ".1.72096210.793405066.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Снегоболотоходы с органами управления автомобильного типа",
+        "id": 793405066
+      },
+      {
+        "treePathId": ".1.72096210.793372008.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Спецтехника для дорожно-транспортного строительства",
+        "id": 793372008
+      },
+      {
+        "treePathId": ".1.72096210.793372002.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Спецтехника коммунальная",
+        "id": 793372002
+      },
+      {
+        "treePathId": ".1.72096210.793372004.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Спецтехника лесохозяйственная",
+        "id": 793372004
+      },
+      {
+        "treePathId": ".1.72096210.793372000.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Техника малой механизации",
+        "id": 793372000
+      },
+      {
+        "treePathId": ".1.72096210.793409794.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Устройства молотильно-сепарирующие",
+        "id": 793409794
+      }
+    ],
+    "treePathId": ".1.72096210.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Спецтехника дорожная, коммунальная и лесотехническая, реагенты противогололедные, оборудование и инвентарь для ЖКХ",
+    "id": 72096210
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.793303412.793301763.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Парфюмерия",
+        "id": 793301763
+      },
+      {
+        "treePathId": ".1.793303412.793303522.",
+        "isLastLevel": true,
+        "skuCount": 1932,
+        "name": "Принадлежности для косметических процедур",
+        "id": 793303522
+      },
+      {
+        "treePathId": ".1.793303412.793302864.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Средства косметические",
+        "id": 793302864
+      }
+    ],
+    "treePathId": ".1.793303412.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Средства косметические",
+    "id": 793303412
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72095208.793370536.",
+        "isLastLevel": true,
+        "skuCount": 126,
+        "name": "Портфели",
+        "id": 793370536
+      },
+      {
+        "treePathId": ".1.72095208.793370538.",
+        "isLastLevel": true,
+        "skuCount": 960,
+        "name": "Рюкзаки туристические",
+        "id": 793370538
+      },
+      {
+        "treePathId": ".1.72095208.793370540.",
+        "isLastLevel": true,
+        "skuCount": 11,
+        "name": "Сумки для ноутбука",
+        "id": 793370540
+      },
+      {
+        "treePathId": ".1.72095208.793370542.",
+        "isLastLevel": true,
+        "skuCount": 2956,
+        "name": "Сумки повседневные",
+        "id": 793370542
+      },
+      {
+        "treePathId": ".1.72095208.793370544.",
+        "isLastLevel": true,
+        "skuCount": 108,
+        "name": "Чемоданы",
+        "id": 793370544
+      }
+    ],
+    "treePathId": ".1.72095208.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Сумки, портфели, чемоданы",
+    "id": 72095208
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092196.793373114.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для стирки и обработки белья",
+        "id": 793373114
+      },
+      {
+        "treePathId": ".1.72092196.793373276.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование измерительное бытовое",
+        "id": 793373276
+      },
+      {
+        "treePathId": ".1.72092196.793373116.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование кухонное бытовое",
+        "id": 793373116
+      },
+      {
+        "treePathId": ".1.72092196.793373254.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование, принадлежности для уборки",
+        "id": 793373254
+      },
+      {
+        "treePathId": ".1.72092196.793373110.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Расходные материалы, комплектующие, запасные части к товарам хозяйственным, технике бытовой",
+        "id": 793373110
+      },
+      {
+        "treePathId": ".1.72092196.793373112.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Электрооборудование бытовое, кроме кухонного, предназначенного для стирки и обработки белья и уборочного",
+        "id": 793373112
+      }
+    ],
+    "treePathId": ".1.72092196.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Техника бытовая",
+    "id": 72092196
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72095207.793375028.",
+        "isLastLevel": true,
+        "skuCount": 12,
+        "name": "Детали и аксессуары для обуви",
+        "id": 793375028
+      },
+      {
+        "treePathId": ".1.72095207.793410062.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Детали и аксессуары для форменной обуви",
+        "id": 793410062
+      },
+      {
+        "treePathId": ".1.72095207.793375026.",
+        "isLastLevel": true,
+        "skuCount": 109,
+        "name": "Зонты",
+        "id": 793375026
+      },
+      {
+        "treePathId": ".1.72095207.793370558.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Изделия чулочно-носочные",
+        "id": 793370558
+      },
+      {
+        "treePathId": ".1.72095207.793375100.",
+        "isLastLevel": true,
+        "skuCount": 10,
+        "name": "Картхолдеры",
+        "id": 793375100
+      },
+      {
+        "treePathId": ".1.72095207.793373768.",
+        "isLastLevel": true,
+        "skuCount": 62,
+        "name": "Ключницы",
+        "id": 793373768
+      },
+      {
+        "treePathId": ".1.72095207.793370552.",
+        "isLastLevel": true,
+        "skuCount": 17,
+        "name": "Косметички",
+        "id": 793370552
+      },
+      {
+        "treePathId": ".1.72095207.793370550.",
+        "isLastLevel": true,
+        "skuCount": 39,
+        "name": "Кошельки",
+        "id": 793370550
+      },
+      {
+        "treePathId": ".1.72095207.793370554.",
+        "isLastLevel": true,
+        "skuCount": 9,
+        "name": "Маски для сна",
+        "id": 793370554
+      },
+      {
+        "treePathId": ".1.72095207.793375030.",
+        "isLastLevel": true,
+        "skuCount": 250,
+        "name": "Обложки для документов",
+        "id": 793375030
+      },
+      {
+        "treePathId": ".1.72095207.793375034.",
+        "isLastLevel": true,
+        "skuCount": 10,
+        "name": "Платки носовые",
+        "id": 793375034
+      },
+      {
+        "treePathId": ".1.72095207.793375024.",
+        "isLastLevel": true,
+        "skuCount": 25,
+        "name": "Ремни поясные",
+        "id": 793375024
+      },
+      {
+        "treePathId": ".1.72095207.793375102.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Элементы одежды",
+        "id": 793375102
+      }
+    ],
+    "treePathId": ".1.72095207.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары галантерейные, изделия чулочно-носочные",
+    "id": 72095207
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72096315.793358169.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Игрушки и игровое оборудование",
+        "id": 793358169
+      },
+      {
+        "treePathId": ".1.72096315.793359317.",
+        "isLastLevel": true,
+        "skuCount": 312,
+        "name": "Наборы для детского творчества",
+        "id": 793359317
+      },
+      {
+        "treePathId": ".1.72096315.793308803.",
+        "isLastLevel": true,
+        "skuCount": 500,
+        "name": "Пластилин для детского творчества",
+        "id": 793308803
+      },
+      {
+        "treePathId": ".1.72096315.793359319.",
+        "isLastLevel": true,
+        "skuCount": 2,
+        "name": "Прорезыватели для зубов",
+        "id": 793359319
+      },
+      {
+        "treePathId": ".1.72096315.793405078.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Товары для детей (кроме одежды)",
+        "id": 793405078
+      },
+      {
+        "treePathId": ".1.72096315.72096343.",
+        "isLastLevel": true,
+        "skuCount": 6998,
+        "name": "Товары для детского творчества",
+        "id": 72096343
+      }
+    ],
+    "treePathId": ".1.72096315.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары для детей",
+    "id": 72096315
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092564.72092613.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Мебель для образовательных организаций",
+        "id": 72092613
+      },
+      {
+        "treePathId": ".1.72092564.793361535.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование учебное для людей с ограниченными возможностями",
+        "id": 793361535
+      },
+      {
+        "treePathId": ".1.72092564.793361203.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование учебное измерительное, лабораторное",
+        "id": 793361203
+      },
+      {
+        "treePathId": ".1.72092564.793374700.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование учебное оптическое",
+        "id": 793374700
+      },
+      {
+        "treePathId": ".1.72092564.793360977.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Пособия учебные наглядные, за исключением печатных",
+        "id": 793360977
+      },
+      {
+        "treePathId": ".1.72092564.793374702.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Программно-технический комплекс для сбора и обработки информации об изменении реакций организма",
+        "id": 793374702
+      },
+      {
+        "treePathId": ".1.72092564.793284934.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Товары, закупаемые в рамках проекта \"Техносфера современной школы\"",
+        "id": 793284934
+      },
+      {
+        "treePathId": ".1.72092564.72092614.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Учебное оборудование",
+        "id": 72092614
+      }
+    ],
+    "treePathId": ".1.72092564.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары для образовательных организаций",
+    "id": 72092564
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092562.793370302.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для спасательных служб и служб гражданской обороны",
+        "id": 793370302
+      },
+      {
+        "treePathId": ".1.72092562.793370298.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Одежда, обувь, галантерея, головные уборы, специальная экипировка для спасателей, пожарников",
+        "id": 793370298
+      },
+      {
+        "treePathId": ".1.72092562.793370296.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Средства для спасательных служб и служб гражданской обороны",
+        "id": 793370296
+      },
+      {
+        "treePathId": ".1.72092562.793370300.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Транспорт для спасательных служб и служб гражданской обороны",
+        "id": 793370300
+      }
+    ],
+    "treePathId": ".1.72092562.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары для противопожарных, аварийно-спасательных служб и служб гражданской обороны",
+    "id": 72092562
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092565.72092620.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Запасные части, инструменты и принадлежности для учреждений культуры и искусства",
+        "id": 72092620
+      },
+      {
+        "treePathId": ".1.72092565.72092622.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Изделия культуры прочие",
+        "id": 72092622
+      },
+      {
+        "treePathId": ".1.72092565.72092617.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Инструменты музыкальные",
+        "id": 72092617
+      },
+      {
+        "treePathId": ".1.72092565.72092621.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Материалы расходные для учреждений культуры и искусства",
+        "id": 72092621
+      },
+      {
+        "treePathId": ".1.72092565.72092615.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Мебель для учреждений культуры и искусства",
+        "id": 72092615
+      },
+      {
+        "treePathId": ".1.72092565.72092618.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование сценическое",
+        "id": 72092618
+      },
+      {
+        "treePathId": ".1.72092565.793372610.",
+        "isLastLevel": true,
+        "skuCount": 5548,
+        "name": "Одежда, обувь и реквизит сценические",
+        "id": 793372610
+      },
+      {
+        "treePathId": ".1.72092565.793372760.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Товары для творчества",
+        "id": 793372760
+      }
+    ],
+    "treePathId": ".1.72092565.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары для учреждений культуры и искусства",
+    "id": 72092565
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.1100880.793307703.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Принадлежности для шитья и рукоделия",
+        "id": 793307703
+      }
+    ],
+    "treePathId": ".1.1100880.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары для хобби",
+    "id": 1100880
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092567.793371670.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Автоматизированные рабочие места и системные блоки",
+        "id": 793371670
+      },
+      {
+        "treePathId": ".1.72092567.793309352.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Активное сетевое оборудование",
+        "id": 793309352
+      },
+      {
+        "treePathId": ".1.72092567.793371634.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Комплектующие и расходные материалы для оргтехники",
+        "id": 793371634
+      },
+      {
+        "treePathId": ".1.72092567.793334762.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Комплектующие и расходные материалы для сетей и систем связи",
+        "id": 793334762
+      },
+      {
+        "treePathId": ".1.72092567.793371474.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование информационно-технологическое и электронное прочее",
+        "id": 793371474
+      },
+      {
+        "treePathId": ".1.72092567.793371760.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оргтехника",
+        "id": 793371760
+      },
+      {
+        "treePathId": ".1.72092567.793360757.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Приборы для измерения напряжения, силы тока и сопротивления",
+        "id": 793360757
+      },
+      {
+        "treePathId": ".1.72092567.793359675.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Приборы и инструменты для технического обслуживания и ремонта информационно-технологического оборудования и оргтехники",
+        "id": 793359675
+      },
+      {
+        "treePathId": ".1.72092567.72092644.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Программное обеспечение",
+        "id": 72092644
+      },
+      {
+        "treePathId": ".1.72092567.793371596.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Расходные материалы и комплектующие для информационно-технологического оборудования",
+        "id": 793371596
+      },
+      {
+        "treePathId": ".1.72092567.72092633.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Сервера и серверное оборудование",
+        "id": 72092633
+      },
+      {
+        "treePathId": ".1.72092567.793371590.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Сертификаты на техническую поддержку информационных технологий",
+        "id": 793371590
+      },
+      {
+        "treePathId": ".1.72092567.793410304.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Системы аппаратно-программные для управления технологическими процессами тепло/водоснабжения",
+        "id": 793410304
+      },
+      {
+        "treePathId": ".1.72092567.793409688.",
+        "isLastLevel": true,
+        "skuCount": 4,
+        "name": "Системы измерительные",
+        "id": 793409688
+      },
+      {
+        "treePathId": ".1.72092567.793363177.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Средства и системы связи и оборудование для них",
+        "id": 793363177
+      },
+      {
+        "treePathId": ".1.72092567.793362609.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Устройства и системы хранения данных",
+        "id": 793362609
+      },
+      {
+        "treePathId": ".1.72092567.793358323.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Устройства мобильные",
+        "id": 793358323
+      },
+      {
+        "treePathId": ".1.72092567.72092632.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Устройства периферийные",
+        "id": 72092632
+      },
+      {
+        "treePathId": ".1.72092567.793371538.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Электронные компоненты и комплектующие информационно-технологического оборудования",
+        "id": 793371538
+      },
+      {
+        "treePathId": ".1.72092567.793371700.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Элементы ИТ-инфраструктуры",
+        "id": 793371700
+      },
+      {
+        "treePathId": ".1.72092567.72092640.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Элементы систем кабельных структурированных (СКС)",
+        "id": 72092640
+      }
+    ],
+    "treePathId": ".1.72092567.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары информационно-технологические, средства связи, оргтехника, электроника (включая программное обеспечение)",
+    "id": 72092567
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.793375183.793375187.",
+        "isLastLevel": true,
+        "skuCount": 69,
+        "name": "Кислород медицинский жидкий",
+        "id": 793375187
+      },
+      {
+        "treePathId": ".1.793375183.793375184.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Лекарственные средства",
+        "id": 793375184
+      },
+      {
+        "treePathId": ".1.793375183.793375186.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Медицинские расходные материалы",
+        "id": 793375186
+      },
+      {
+        "treePathId": ".1.793375183.793375185.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Медицинское оборудование, инструменты и мебель",
+        "id": 793375185
+      },
+      {
+        "treePathId": ".1.793375183.793375188.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Фармацевтические субстанции и вспомогательные вещества, используемые для аптечного изготовления лекарственных препаратов",
+        "id": 793375188
+      }
+    ],
+    "treePathId": ".1.793375183.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары медицинские",
+    "id": 793375183
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092563.793411626.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Материалы расходные для экологических (лабораторных) исследований",
+        "id": 793411626
+      },
+      {
+        "treePathId": ".1.72092563.793371248.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование экологическое и лабораторное",
+        "id": 793371248
+      },
+      {
+        "treePathId": ".1.72092563.793371250.",
+        "isLastLevel": true,
+        "skuCount": 143,
+        "name": "Реагенты для экологических исследований",
+        "id": 793371250
+      },
+      {
+        "treePathId": ".1.72092563.793371246.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Спецтехника экологического назначения",
+        "id": 793371246
+      },
+      {
+        "treePathId": ".1.72092563.793371244.",
+        "isLastLevel": true,
+        "skuCount": 65,
+        "name": "Товары природоохранные экологические прочие",
+        "id": 793371244
+      }
+    ],
+    "treePathId": ".1.72092563.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары природоохранные экологические и лабораторные",
+    "id": 72092563
+  },
+  {
+    "subCategories": [],
+    "treePathId": ".1.793374850.",
+    "isLastLevel": true,
+    "skuCount": 85,
+    "name": "Товары ритуального назначения",
+    "id": 793374850
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72095941.793363746.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Питание спортивное",
+        "id": 793363746
+      },
+      {
+        "treePathId": ".1.72095941.793363654.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Спортивная экипировка",
+        "id": 793363654
+      },
+      {
+        "treePathId": ".1.72095941.793363754.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Спортивное оборудование и инвентарь",
+        "id": 793363754
+      }
+    ],
+    "treePathId": ".1.72095941.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары спортивные",
+    "id": 72095941
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72095647.793374256.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Изделия расходные строительные",
+        "id": 793374256
+      },
+      {
+        "treePathId": ".1.72095647.793362819.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Инвентарь строительный",
+        "id": 793362819
+      },
+      {
+        "treePathId": ".1.72095647.793372196.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Инструмент и оборудование инструментальное",
+        "id": 793372196
+      },
+      {
+        "treePathId": ".1.72095647.793374222.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Конструкции быстровозводимые",
+        "id": 793374222
+      },
+      {
+        "treePathId": ".1.72095647.793362237.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Материалы и конструкции огнезащитные",
+        "id": 793362237
+      },
+      {
+        "treePathId": ".1.72095647.793370872.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Материалы и конструкции строительные, кроме быстровозводимых",
+        "id": 793370872
+      },
+      {
+        "treePathId": ".1.72095647.793362267.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Материалы расходные инженерно-строительные",
+        "id": 793362267
+      },
+      {
+        "treePathId": ".1.72095647.72095664.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Материалы расходные инженерно-строительные",
+        "id": 72095664
+      },
+      {
+        "treePathId": ".1.72095647.793371956.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Материалы сыпучие строительные и смеси строительные",
+        "id": 793371956
+      },
+      {
+        "treePathId": ".1.72095647.793360017.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Металлы цветные и металлоизделия из цветных металлов",
+        "id": 793360017
+      },
+      {
+        "treePathId": ".1.72095647.793369698.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для водоснабжения, сточных вод и канализации",
+        "id": 793369698
+      },
+      {
+        "treePathId": ".1.72095647.793362585.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование инженерно-строительное",
+        "id": 793362585
+      },
+      {
+        "treePathId": ".1.72095647.793362649.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование отопительное",
+        "id": 793362649
+      },
+      {
+        "treePathId": ".1.72095647.793369890.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование подъемно-транспортное, его комплектующие и запасные части",
+        "id": 793369890
+      },
+      {
+        "treePathId": ".1.72095647.793362869.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование сантехническое",
+        "id": 793362869
+      },
+      {
+        "treePathId": ".1.72095647.793369884.",
+        "isLastLevel": true,
+        "skuCount": 391,
+        "name": "Оборудование строительное технологическое",
+        "id": 793369884
+      },
+      {
+        "treePathId": ".1.72095647.72095870.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Трубы и детали трубопроводов",
+        "id": 72095870
+      },
+      {
+        "treePathId": ".1.72095647.72095648.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Электрика",
+        "id": 72095648
+      }
+    ],
+    "treePathId": ".1.72095647.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары строительные",
+    "id": 72095647
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72096312.793361675.",
+        "isLastLevel": true,
+        "skuCount": 62,
+        "name": "Доски гладильные",
+        "id": 793361675
+      },
+      {
+        "treePathId": ".1.72096312.1103367.",
+        "isLastLevel": true,
+        "skuCount": 1299,
+        "name": "Зеркала интерьерные",
+        "id": 1103367
+      },
+      {
+        "treePathId": ".1.72096312.72096331.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Инвентарь уборочный в том числе садовый",
+        "id": 72096331
+      },
+      {
+        "treePathId": ".1.72096312.793357865.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Ковры, коврики, ковровые покрытия, дорожки, кроме текстильных",
+        "id": 793357865
+      },
+      {
+        "treePathId": ".1.72096312.793231582.",
+        "isLastLevel": true,
+        "skuCount": 615,
+        "name": "Кронштейны для крепления бытовой техники",
+        "id": 793231582
+      },
+      {
+        "treePathId": ".1.72096312.793373786.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Метки тактильные для маркировки кнопок",
+        "id": 793373786
+      },
+      {
+        "treePathId": ".1.72096312.793375162.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Предметы интерьера",
+        "id": 793375162
+      },
+      {
+        "treePathId": ".1.72096312.793306052.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Принадлежности и инвентарь бытовые",
+        "id": 793306052
+      },
+      {
+        "treePathId": ".1.72096312.793369962.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Принадлежности постельные",
+        "id": 793369962
+      },
+      {
+        "treePathId": ".1.72096312.793373784.",
+        "isLastLevel": true,
+        "skuCount": 4,
+        "name": "Система автоматического капельного полива горшечных растений",
+        "id": 793373784
+      },
+      {
+        "treePathId": ".1.72096312.72096330.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Хозяйственные емкости",
+        "id": 72096330
+      },
+      {
+        "treePathId": ".1.72096312.793341362.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Часы, комплектующие (запасные части) для них",
+        "id": 793341362
+      }
+    ],
+    "treePathId": ".1.72096312.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Товары хозяйственные",
+    "id": 72096312
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.793306935.793307924.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Бензин авиационный",
+        "id": 793307924
+      },
+      {
+        "treePathId": ".1.793306935.793306716.",
+        "isLastLevel": true,
+        "skuCount": 8,
+        "name": "Бензин автомобильный (оптовая реализация)",
+        "id": 793306716
+      },
+      {
+        "treePathId": ".1.793306935.793306166.",
+        "isLastLevel": true,
+        "skuCount": 75,
+        "name": "Бензин автомобильный (розничная реализация)",
+        "id": 793306166
+      },
+      {
+        "treePathId": ".1.793306935.793307595.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Газ топливный",
+        "id": 793307595
+      },
+      {
+        "treePathId": ".1.793306935.793375104.",
+        "isLastLevel": true,
+        "skuCount": 4,
+        "name": "Гранулы топливные (пеллеты) древесные",
+        "id": 793375104
+      },
+      {
+        "treePathId": ".1.793306935.793307157.",
+        "isLastLevel": true,
+        "skuCount": 43,
+        "name": "Дрова",
+        "id": 793307157
+      },
+      {
+        "treePathId": ".1.793306935.793375106.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Карбюризатор древесноугольный",
+        "id": 793375106
+      },
+      {
+        "treePathId": ".1.793306935.793375108.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Керосины",
+        "id": 793375108
+      },
+      {
+        "treePathId": ".1.793306935.793307706.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Мазут",
+        "id": 793307706
+      },
+      {
+        "treePathId": ".1.793306935.793375112.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Масла для вентиляционных фильтров",
+        "id": 793375112
+      },
+      {
+        "treePathId": ".1.793306935.793375118.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Масла касторовые технические",
+        "id": 793375118
+      },
+      {
+        "treePathId": ".1.793306935.793375114.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Масла часовые",
+        "id": 793375114
+      },
+      {
+        "treePathId": ".1.793306935.793375116.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Масло вазелиновое техническое",
+        "id": 793375116
+      },
+      {
+        "treePathId": ".1.793306935.793375120.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Состав прожировочный",
+        "id": 793375120
+      },
+      {
+        "treePathId": ".1.793306935.793307158.",
+        "isLastLevel": true,
+        "skuCount": 16,
+        "name": "Топливо дизельное (оптовая реализация)",
+        "id": 793307158
+      },
+      {
+        "treePathId": ".1.793306935.793308035.",
+        "isLastLevel": true,
+        "skuCount": 48,
+        "name": "Топливо дизельное (розничная реализация)",
+        "id": 793308035
+      },
+      {
+        "treePathId": ".1.793306935.793375110.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Топливо для авиамодельных двигателей",
+        "id": 793375110
+      },
+      {
+        "treePathId": ".1.793306935.793306936.",
+        "isLastLevel": true,
+        "skuCount": 1,
+        "name": "Топливо для реактивных двигателей",
+        "id": 793306936
+      },
+      {
+        "treePathId": ".1.793306935.793306053.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Топливо судовое",
+        "id": 793306053
+      },
+      {
+        "treePathId": ".1.793306935.793307925.",
+        "isLastLevel": true,
+        "skuCount": 38,
+        "name": "Уголь",
+        "id": 793307925
+      }
+    ],
+    "treePathId": ".1.793306935.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Топливо",
+    "id": 793306935
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72095199.793285703.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Автотранспортные средства",
+        "id": 793285703
+      },
+      {
+        "treePathId": ".1.72095199.793285266.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Автотранспортные средства несамоходные",
+        "id": 793285266
+      },
+      {
+        "treePathId": ".1.72095199.72095230.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Запасные части для транспортных средств",
+        "id": 72095230
+      },
+      {
+        "treePathId": ".1.72095199.793286253.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Машины специализированные на базе транспортных средств",
+        "id": 793286253
+      },
+      {
+        "treePathId": ".1.72095199.793409724.",
+        "isLastLevel": true,
+        "skuCount": null,
+        "name": "Модули транспортные самоходные",
+        "id": 793409724
+      },
+      {
+        "treePathId": ".1.72095199.72095218.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Расходные материалы для транспортных средств",
+        "id": 72095218
+      },
+      {
+        "treePathId": ".1.72095199.72095215.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Транспортные средства водные",
+        "id": 72095215
+      },
+      {
+        "treePathId": ".1.72095199.793286364.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Транспортные средства железнодорожные",
+        "id": 793286364
+      }
+    ],
+    "treePathId": ".1.72095199.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Транспортные средства, расходные материалы и запасные части для них",
+    "id": 72095199
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72096310.793302972.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Мыло твердое и жидкое",
+        "id": 793302972
+      },
+      {
+        "treePathId": ".1.72096310.793302862.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Освежители воздуха и аксессуары к ним",
+        "id": 793302862
+      },
+      {
+        "treePathId": ".1.72096310.793302093.",
+        "isLastLevel": true,
+        "skuCount": 749,
+        "name": "Средства дезинсекционные",
+        "id": 793302093
+      },
+      {
+        "treePathId": ".1.72096310.72096319.",
+        "isLastLevel": true,
+        "skuCount": 1066,
+        "name": "Средства дезинфицирующие хозяйственные",
+        "id": 72096319
+      },
+      {
+        "treePathId": ".1.72096310.793302315.",
+        "isLastLevel": true,
+        "skuCount": 171,
+        "name": "Средства дератизационные",
+        "id": 793302315
+      },
+      {
+        "treePathId": ".1.72096310.793301983.",
+        "isLastLevel": true,
+        "skuCount": 592,
+        "name": "Средства для обработки воды в бассейнах",
+        "id": 793301983
+      },
+      {
+        "treePathId": ".1.72096310.793347082.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Средства для очистки и полировки поверхностей ",
+        "id": 793347082
+      },
+      {
+        "treePathId": ".1.72096310.72096318.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Средства моющие, кроме предназначенных для стирки",
+        "id": 72096318
+      },
+      {
+        "treePathId": ".1.72096310.793303302.",
+        "isLastLevel": true,
+        "skuCount": 22,
+        "name": "Средства по уходу за изделиями из ткани",
+        "id": 793303302
+      },
+      {
+        "treePathId": ".1.72096310.793302312.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Средства стиральные",
+        "id": 793302312
+      },
+      {
+        "treePathId": ".1.72096310.137011692.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Средства чистящие",
+        "id": 137011692
+      }
+    ],
+    "treePathId": ".1.72096310.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Химия бытовая",
+    "id": 72096310
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092571.793368300.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Изделия декоративные для цветов и растений",
+        "id": 793368300
+      },
+      {
+        "treePathId": ".1.72092571.793368292.",
+        "isLastLevel": true,
+        "skuCount": 986,
+        "name": "Композиции из срезанных цветов",
+        "id": 793368292
+      },
+      {
+        "treePathId": ".1.72092571.793368308.",
+        "isLastLevel": true,
+        "skuCount": 245,
+        "name": "Луковицы и клубнелуковицы цветочных культур",
+        "id": 793368308
+      },
+      {
+        "treePathId": ".1.72092571.793368294.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Рассада цветов, овощных культур",
+        "id": 793368294
+      },
+      {
+        "treePathId": ".1.72092571.793368290.",
+        "isLastLevel": true,
+        "skuCount": 627,
+        "name": "Растения комнатные",
+        "id": 793368290
+      },
+      {
+        "treePathId": ".1.72092571.793368304.",
+        "isLastLevel": true,
+        "skuCount": 270,
+        "name": "Семена газонных трав",
+        "id": 793368304
+      },
+      {
+        "treePathId": ".1.72092571.793368302.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Семена цветов и растений",
+        "id": 793368302
+      },
+      {
+        "treePathId": ".1.72092571.793368296.",
+        "isLastLevel": true,
+        "skuCount": 995,
+        "name": "Сеянцы, саженцы деревьев и кустарников",
+        "id": 793368296
+      },
+      {
+        "treePathId": ".1.72092571.793368298.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Средства по уходу и содержанию цветов и растений",
+        "id": 793368298
+      }
+    ],
+    "treePathId": ".1.72092571.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Цветы, растения, товары для озеленения",
+    "id": 72092571
+  },
+  {
+    "subCategories": [
+      {
+        "treePathId": ".1.72092573.793374590.",
+        "isLastLevel": true,
+        "skuCount": 66,
+        "name": "Комплектующие (запасные части) к товарам для благоустройства территорий",
+        "id": 793374590
+      },
+      {
+        "treePathId": ".1.72092573.793307047.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Конструкции и оборудование информационные",
+        "id": 793307047
+      },
+      {
+        "treePathId": ".1.72092573.793374208.",
+        "isLastLevel": true,
+        "skuCount": 8,
+        "name": "Лежаки парковые",
+        "id": 793374208
+      },
+      {
+        "treePathId": ".1.72092573.793362647.",
+        "isLastLevel": true,
+        "skuCount": 2135,
+        "name": "Малые архитектурные формы для территорий благоустройства",
+        "id": 793362647
+      },
+      {
+        "treePathId": ".1.72092573.793359903.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для дворовых территорий",
+        "id": 793359903
+      },
+      {
+        "treePathId": ".1.72092573.793358103.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для детских площадок",
+        "id": 793358103
+      },
+      {
+        "treePathId": ".1.72092573.793359909.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для контейнерных площадок",
+        "id": 793359909
+      },
+      {
+        "treePathId": ".1.72092573.793362557.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Оборудование для спортивных площадок",
+        "id": 793362557
+      },
+      {
+        "treePathId": ".1.72092573.793371920.",
+        "isLastLevel": true,
+        "skuCount": 85,
+        "name": "Оборудование спортивное уличное",
+        "id": 793371920
+      },
+      {
+        "treePathId": ".1.72092573.793362633.",
+        "isLastLevel": true,
+        "skuCount": 127,
+        "name": "Покрытия и элементы сопряжения для территорий благоустройства",
+        "id": 793362633
+      },
+      {
+        "treePathId": ".1.72092573.793371918.",
+        "isLastLevel": true,
+        "skuCount": 6,
+        "name": "Решетки ливневой канализации",
+        "id": 793371918
+      },
+      {
+        "treePathId": ".1.72092573.793362635.",
+        "isLastLevel": true,
+        "skuCount": 14,
+        "name": "Средства обеспечения транспортной безопасности для территорий благоустройства",
+        "id": 793362635
+      },
+      {
+        "treePathId": ".1.72092573.72092716.",
+        "isLastLevel": true,
+        "skuCount": 424,
+        "name": "Тенты",
+        "id": 72092716
+      },
+      {
+        "treePathId": ".1.72092573.793366680.",
+        "isLastLevel": false,
+        "skuCount": null,
+        "name": "Товары для маломобильных групп населения для благоустройства территорий",
+        "id": 793366680
+      },
+      {
+        "treePathId": ".1.72092573.793362639.",
+        "isLastLevel": true,
+        "skuCount": 39,
+        "name": "Товары для озеленения территорий благоустройства",
+        "id": 793362639
+      },
+      {
+        "treePathId": ".1.72092573.793362641.",
+        "isLastLevel": true,
+        "skuCount": 105,
+        "name": "Элементы инженерных коммуникаций для территорий благоустройства",
+        "id": 793362641
+      },
+      {
+        "treePathId": ".1.72092573.793362643.",
+        "isLastLevel": true,
+        "skuCount": 2,
+        "name": "Элементы организации рельефа для территорий благоустройства",
+        "id": 793362643
+      },
+      {
+        "treePathId": ".1.72092573.793362645.",
+        "isLastLevel": true,
+        "skuCount": 45,
+        "name": "Элементы освещения для территорий благоустройства",
+        "id": 793362645
+      }
+    ],
+    "treePathId": ".1.72092573.",
+    "isLastLevel": false,
+    "skuCount": null,
+    "name": "Элементы благоустройства",
+    "id": 72092573
+  }
+]

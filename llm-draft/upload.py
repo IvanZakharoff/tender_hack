@@ -6,10 +6,9 @@ import re
 import json
 
 # Function to convert PDF to text and append to vault.txt
-def convert_pdf_to_text():
-    file_path = filedialog.askopenfilename(filetypes=[("PDF Files", "*.pdf")])
-    if file_path:
-        with open(file_path, 'rb') as pdf_file:
+def convert_pdf_to_text(file):
+    if file:
+        with open(file, 'rb') as pdf_file:
             pdf_reader = PyPDF2.PdfReader(pdf_file)
             num_pages = len(pdf_reader.pages)
             text = ''
@@ -42,7 +41,7 @@ def convert_pdf_to_text():
             print(f"PDF content appended to vault.txt with each chunk on a separate line.")
 
 # Function to upload a text file and append to vault.txt
-def upload_txtfile():
+def upload_txtfile(file):
     file_path = filedialog.askopenfilename(filetypes=[("Text Files", "*.txt")])
     if file_path:
         with open(file_path, 'r', encoding="utf-8") as txt_file:

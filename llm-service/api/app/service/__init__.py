@@ -1,14 +1,8 @@
-import torch
-from ..manager.analyzer import LLMManager
-from .common import *
-from .chat import *
-from semantic_equality import semantic_cosine, symbolic_levenshtein
+from flask import Flask
 
-def embedding(text):
-    return LLMManager.embegging(text)
+from api.app.controller import init_routers
 
-
-
-def ask_saiga_by_text(text, questions):
-    embeddings = embedding(text)
-    vault_embeddings_tensor = torch.tensor(embeddings) 
+def create_app():
+    app = Flask(__name__)
+    init_routers(app)
+    return app

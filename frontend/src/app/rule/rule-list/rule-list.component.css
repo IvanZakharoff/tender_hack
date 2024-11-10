@@ -1,0 +1,44 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+  .rule-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .rule-card {
+    width: 300px;
+  }
+  
+  mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  mat-card-title {
+    font-weight: bold;
+  }
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .buttons {
+    text-align: right;
+    margin: 0 auto;
+  }
+
+  .button {
+    margin: 10px auto;
+    width: 260px;
+  }
+  
