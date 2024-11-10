@@ -61,7 +61,7 @@ func (h *Handler) CheckSessions(w http.ResponseWriter, r *http.Request) {
 
 	buf.FilePools = filePoolsBlock
 
-	h.SessionService.ProcessSessions(buf)
+	go h.SessionService.ProcessSessions(buf)
 
 	// Отправляем успешный ответ
 	w.Write([]byte("Публикации катировочных сессий успешно приняты на проверку!"))
