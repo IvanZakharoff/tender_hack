@@ -12,7 +12,7 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "ml-service",
+            "name": "llm-service",
             "type": "debugpy",
             "request": "launch",
             "module": "flask",
@@ -23,8 +23,22 @@
                 "--port=5000"
             ],
             "jinja": true,
-            "cwd": "${workspaceFolder}/ml-service",
+            "cwd": "${workspaceFolder}/llm-service",
             "envFile": "${workspaceFolder}/.env"
-        }
+        },
+        {
+            "name": "ng serve",
+            "type": "chrome",
+            "request": "launch",
+            "preLaunchTask": "npm: start",
+            "url": "http://localhost:4200/"
+          },
+          {
+            "name": "ng test",
+            "type": "chrome",
+            "request": "launch",
+            "preLaunchTask": "npm: test",
+            "url": "http://localhost:9876/debug.html"
+          }
     ]
 }
