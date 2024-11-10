@@ -1,0 +1,62 @@
+{
+    "text":"<text>",
+    "rules": 
+    [
+        {
+            "rule":"NAME_EQUALITY",
+            "parsed_args":{
+                "contractName":"name" // not null
+            }
+        },
+    
+        {
+            "rule":"CONTRACT_ENFORSEMENT",
+            "args":{
+                "isContractGuaranteeRequired":true // required
+            }
+        },
+    
+        {
+        "rule":"CERTIFICATION",
+            "args":{
+                "licenseFiles":[
+                "text" // nullable
+                ]
+            }
+        },
+        {
+            "rule":"SUPPLY_SCHEDULE AND STAGE",
+            "args":{
+                "periodDaysFrom":"<text>", // required
+                "periodDaysTo":"<text>",    // required
+                "deliveryStage":"smth text"// required
+            }
+        },
+        {
+            "rule":"CONTRACT_COST",
+            "args":{
+                "startCost":"<text>",
+                "maxContractCost":"<text>"
+            }
+        },
+        {
+        "rule":"TECHNICAL_SPECIFICATION",
+        "text":"<text ts>",
+        "args":{
+            "items":[
+                {
+                    "name":"<text>",
+                    "properties":[
+                        {
+                            "name":"<text>",
+                            "value":"<text>", // згачение + ед. измерения
+                        }
+                    ],
+                    "quantity":"<text>",
+                    "costPerUnit":"<text>" // цена за единицу товара
+                }
+            ]
+        }
+        }
+    ]
+}
