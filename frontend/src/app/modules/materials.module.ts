@@ -10,6 +10,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   exports: [
@@ -23,7 +25,9 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     MatMenuModule,
     MatFormFieldModule,
     MatSelectModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatExpansionModule,
+    MatProgressSpinnerModule
   ],
 })
 export class MaterialModule {}

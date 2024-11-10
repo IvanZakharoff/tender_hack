@@ -8,7 +8,7 @@
   </div>
   <div class="buttons">
     <div>
-      <button class="button" mat-raised-button color="primary" (click)="selectAll()">Выбрать все правила</button>
+      <button class="button" mat-raised-button color="primary" (click)="selectAll()">{{this.selectedRules.length == this.rules.length ? 'Отменить ' : 'Выбрать '}} все правила</button>
     </div>
     <div>
       <button class="button" mat-raised-button color="primary" (click)="selectForAllSessions()">Применить ко всем сессиям</button>

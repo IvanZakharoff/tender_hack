@@ -39,11 +39,16 @@ export class RuleListComponent {
   }
 
   filterChange() {
+    console.log(this.selectedRules)
     this.result.emit(this.selectedRules);
   }
 
   selectAll() {
-    this.selectedRules = this.rules.map(rule => rule.id);
+    if(this.selectedRules.length == this.rules.length) {
+      this.selectedRules = [];
+    } else {
+      this.selectedRules = this.rules.map(rule => rule.id);
+    }
     this.filterChange()
   }
 

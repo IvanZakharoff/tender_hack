@@ -24,7 +24,14 @@ export class FileUploadService {
   uploadData(sessions: Session[], filesData: SessionFiles[]): Observable<any> {
     const formData = new FormData();
 
-    formData.append('data', JSON.stringify(sessions));
+    const formattedData = {
+      cs_list: sessions.map(session => ({
+          url: session.URL,
+          rules: session.rules
+      }))
+  };
+
+    formData.append('data', JSON.stringify(formattedData));
 
     filesData.forEach((UrlFiles) => {
       if (UrlFiles.tzFile) {
@@ -35,7 +42,7 @@ export class FileUploadService {
       }
 
     });
-    
+
     return this.http.post(this.apiUrl, formData);
   }
 }

@@ -4,13 +4,13 @@ import { Router } from '@angular/router';
 
 interface Rule {
   id: string;
-  passed: boolean;
+  status: string;
   reason: string | null;
-  showReason: boolean;
 }
 
 interface Session {
   name: string;
+  url: string;
   rules: Rule[];
 }
 
@@ -18,13 +18,6 @@ interface Session {
   selector: 'app-checking-result',
   templateUrl: './checking-result.component.html',
   styleUrl: './checking-result.component.css',
-  animations: [
-    trigger('detailExpand', [
-      state('collapsed', style({height: '0px', minHeight: '0', visibility: 'hidden'})),
-      state('expanded', style({height: 'auto', visibility: 'visible'})),
-      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
-  ])
-  ],
 })
 export class CheckingResultComponent implements OnInit {
 
@@ -37,11 +30,16 @@ export class CheckingResultComponent implements OnInit {
     { id: 6, name: 'Правило 6' },
   ];
 
+  statuses = [
+    { systemName: 'succeed', name: 'Пройдено' },
+    { systemName: 'unsucceed', name: 'Не пройдено' },
+    { systemName: 'warning', name: 'Неопределен' },
+  ]
 
   sessions: any[] = [];
   displayedColumns: string[] = ['expand', 'rule', 'status'];
   expandedElement: { sessionName: string; ruleId: number } | null = null;
-
+  expandedRule: number | null = null;
 
   constructor(private router: Router) { }
 
@@ -49,40 +47,42 @@ export class CheckingResultComponent implements OnInit {
     const sessionsData = [
       {
         name: 'Session 1',
+        url: 'lll',
         rules: [
           {
             id: 1,
-            passed: true,
+            status: 'succeed',
             reason: 'Описание: Все необходимые поля заполнены корректно.',
           },
           {
             id: 3,
-            passed: false,
+            status: 'succeed',
             reason: 'Ошибка: Превышен лимит количества символов в названии.',
           },
           {
             id: 4,
-            passed: true,
+            status: 'succeed',
             reason: null, // Нет описания для пройденного правила
           },
         ],
       },
       {
         name: 'Session 2',
+        url: 'lll',
         rules: [
           {
             id: 2,
-            passed: false,
+            status: 'warning',
             reasonv: 'Ошибка: Не пройдена проверка на уникальность.',
           },
           {
             id: 5,
-            passed: true,
+            status: 'succeed',
             reason: null,
           },
           {
             id: 6,
-            passed: false,
+            status: 'unsucceed',
             reason: 'Ошибка: Неправильный формат данных.',
           },
         ],
@@ -93,30 +93,23 @@ export class CheckingResultComponent implements OnInit {
 
   }
 
-  toggleReason(rule: Rule) {
-    rule.showReason = !rule.showReason
-  }
-
-  toggleExpandedElement(sessionName: string, ruleId: number) {
-    if (this.expandedElement && this.expandedElement.sessionName === sessionName && this.expandedElement.ruleId === ruleId) {
-      this.expandedElement = null;
-    } else {
-      this.expandedElement = { sessionName, ruleId };
-    }
-  }
-
-  isExpanded(sessionName: string, ruleId: number): boolean {
-    return this.expandedElement?.sessionName === sessionName && this.expandedElement?.ruleId === ruleId;
-  }
-
-  isDetailRow = (index: number, row: any) => row.hasOwnProperty('reason');
-
   delete() {
     this.router.navigate(['/success']);
   }
 
   findRuleById(id: number) {
-    return this.rules.find(rule => rule.id = id)?.name
+    return this.rules.find(rule => rule.id == id)?.name
   }
 
+  findStatusBySystemName(systemName: string) {
+    return this.statuses.find(status => status.systemName == systemName)?.name
+  }
+
+  setExpandedRule(ruleId: number | null): void {
+    this.expandedRule = ruleId;
+  }
+
+  checkSelection(session: Session) {
+    return session.rules.some(rule => rule.status != 'succeed');
+  }
 }

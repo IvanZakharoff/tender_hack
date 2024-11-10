@@ -29,6 +29,7 @@
 
   .row {
     display: flex;
+    justify-content: space-between;
   }
 
   .buttons {
@@ -38,5 +39,6 @@
 
   .button {
     margin: 10px auto;
+    width: 260px;
   }
   

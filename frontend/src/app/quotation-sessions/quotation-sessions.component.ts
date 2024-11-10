@@ -2,6 +2,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { FormArray, FormControl, FormGroup, UntypedFormArray, UntypedFormBuilder, UntypedFormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { FileUploadService } from '../upload-service';
+import { BehaviorSubject, finalize } from 'rxjs';
 
 interface Session {
   URL: string;
@@ -27,10 +28,11 @@ export class QuotationSessionsComponent {
 
   result?: any[];
 
-  selectedRules: number[]=[];
+  selectedRules: number[] = [];
 
   @ViewChild('openFileDialog') private openFileDialog!: ElementRef;
   @ViewChild('loadFileElement') private loadFileElement!: ElementRef;
+  loading: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
 
   constructor(
     private formBuilder: UntypedFormBuilder,
@@ -97,7 +99,9 @@ export class QuotationSessionsComponent {
       sessionsData.push(session);
       filesData.push(sessionFiles);
     });
-    this.uploadService.uploadData(sessionsData, filesData).subscribe(data => {
+    this.uploadService.uploadData(sessionsData, filesData).pipe(
+      finalize(() => this.loading.next(false))
+    ).subscribe(data => {
       this.result = data
       this.router.navigate(['/checking-result'], { state: { data } });
     }

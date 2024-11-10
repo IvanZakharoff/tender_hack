@@ -23,6 +23,14 @@
   background-color: #55fc62ad;
 }
 
+.row-warning {
+  background-color: #f1f15b;
+}
+
+.rule-warning {
+  background-color: #f1f15b;
+}
+
 .row-failed {
   background-color: #f700257a;
 }
@@ -34,11 +42,36 @@
   border-radius: 4px;
 }
 
-h2 {
+h1 {
   text-align: center;
 }
 
 .session-header {
   display: flex;
   justify-content: space-between;
+}
+
+.rule-passed {
+  background-color: #abfcab; /* Зеленый для пройденных правил */
+}
+
+.rule-failed {
+  background-color: #e77575; /* Красный для непрошедших правил */
+}
+
+.status-passed {
+  font-weight: bold;
+}
+
+.status-warning {
+  font-weight: bold;
+}
+
+.status-failed {
+  font-weight: bold;
+}
+
+.rule-description {
+  padding: 10px;
+  font-size: 14px;
 }
