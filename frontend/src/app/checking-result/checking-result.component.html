@@ -14,7 +14,7 @@
 
         <!-- Accordion with Expansion Panels for each Rule -->
         <mat-accordion>
-            <mat-expansion-panel *ngFor="let rule of session.rules" [expanded]="expandedRule === rule.id"
+            <mat-expansion-panel *ngFor="let rule of session.results" [expanded]="expandedRule === rule.id"
                 (opened)="setExpandedRule(rule.id)" (closed)="setExpandedRule(null)"
                 [ngClass]="{ 'rule-passed': rule.status == 'succeed', 'rule-warning': rule.status == 'warning', 'rule-failed': rule.status == 'unsucceed'}">
                 <!-- Panel Header -->

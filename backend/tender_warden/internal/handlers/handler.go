@@ -97,6 +97,11 @@ func (h *Handler) CheckSessions(w http.ResponseWriter, r *http.Request) {
 		},
 	}
 
+	w.Header().Set("Access-Control-Allow-Origin", "http://localhost:4200") // укажите нужный домен
+	w.Header().Set("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PUT, DELETE")
+	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+	w.WriteHeader(http.StatusOK)
+
 	resultsJSON, err := json.MarshalIndent(resultLists, "", "  ")
 	if err != nil {
 		fmt.Println("Error marshaling JSON:", err)
@@ -104,5 +109,7 @@ func (h *Handler) CheckSessions(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Отправляем успешный ответ
+	w.Header().Set("Content-Type", "application/json")
+	// json.NewEncoder(w).Encode(resultsJSON)
 	w.Write(resultsJSON)
 }

@@ -99,9 +99,11 @@ export class QuotationSessionsComponent {
       sessionsData.push(session);
       filesData.push(sessionFiles);
     });
+    this.loading.next(true);
     this.uploadService.uploadData(sessionsData, filesData).pipe(
       finalize(() => this.loading.next(false))
     ).subscribe(data => {
+      console.log(data)
       this.result = data
       this.router.navigate(['/checking-result'], { state: { data } });
     }

@@ -44,53 +44,7 @@ export class CheckingResultComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    const sessionsData = [
-      {
-        name: 'Session 1',
-        url: 'lll',
-        rules: [
-          {
-            id: 1,
-            status: 'succeed',
-            reason: 'Описание: Все необходимые поля заполнены корректно.',
-          },
-          {
-            id: 3,
-            status: 'succeed',
-            reason: 'Ошибка: Превышен лимит количества символов в названии.',
-          },
-          {
-            id: 4,
-            status: 'succeed',
-            reason: null, // Нет описания для пройденного правила
-          },
-        ],
-      },
-      {
-        name: 'Session 2',
-        url: 'lll',
-        rules: [
-          {
-            id: 2,
-            status: 'warning',
-            reasonv: 'Ошибка: Не пройдена проверка на уникальность.',
-          },
-          {
-            id: 5,
-            status: 'succeed',
-            reason: null,
-          },
-          {
-            id: 6,
-            status: 'unsucceed',
-            reason: 'Ошибка: Неправильный формат данных.',
-          },
-        ],
-      },
-    ];
     this.sessions = history.state.data;
-    this.sessions = sessionsData;
-
   }
 
   delete() {
@@ -110,6 +64,6 @@ export class CheckingResultComponent implements OnInit {
   }
 
   checkSelection(session: Session) {
-    return session.rules.some(rule => rule.status != 'succeed');
+    return session.rules?.some(rule => rule.status != 'succeed');
   }
 }
