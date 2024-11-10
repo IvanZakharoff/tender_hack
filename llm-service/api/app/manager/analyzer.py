@@ -3,14 +3,14 @@ from openai import OpenAI
 import torch
 
 class LLMManager:
-    SYSTEM_MESSAGE = 'You are a helpful assistant that is an expert at extracting the most useful information from a given text. Also bring in extra relevant infromation to the user query from outside the given context.'
-    
+    # SYSTEM_MESSAGE = 'You are a helpful assistant that is an expert at extracting the most useful information from a given text. Also bring in extra relevant infromation to the user query from outside the given context.'
+    SYSTEM_MESSAGE = 'You are a helpful assistant that is an expert at extracting the most useful information from a given text. Imagine that you are a moderator on the site and are looking for answers to questions in the documents. You must always give answers to questions in the form: question: answer(yes or no). explanation: your explanation of the answer'
     MODEL = "ilyagusev/saiga_llama3"
     EMBEDDING_MODEL = 'nomic-embed-text'
-
+    TEMPERATURE = 0.08
     OLAMA_URL = 'http://localhost:11434/v1'
 
-    MAX_TOKENS =  150000
+    MAX_TOKENS =  200
 
     def __init__(self, text):
         self.text = text
@@ -19,6 +19,7 @@ class LLMManager:
             base_url=self.OLAMA_URL,
             api_key=self.MODEL
         )
+        self.init_embeggins()
 
     def _get_embeggings(self, text):
         lines = text.split('\n') # TODO: some \n
@@ -49,17 +50,22 @@ class LLMManager:
         relevant_context = [self.text_lines[idx].strip() for idx in top_indices]
         return relevant_context
     
-    def ask_saiga(self, query):
-        context = self._get_relevant_context_by_input(query)
-        messages = [
-            {"role": "system", "content": self.SYSTEM_MESSAGE},
-            {"role": "user", "content": f"{query}\n\nRelevant Context:\n\n{context}"},
-        ]
+    def ask_saiga(self, queries:list[str]):
+        responses = []
+        for query in queries:
+            context = self._get_relevant_context_by_input(query)
+            messages = [
+                {"role": "system", "content": self.SYSTEM_MESSAGE},
+                {"role": "user", "content": f"{query}\n\nRelevant Context:\n\n{context}"},
+            ]
 
-        response = self.ollama_client.chat.completions.create(
-            model=self.MODEL,
-            messages=messages,
-            max_tokens=self.MAX_TOKENS,
-        )
-
-        return response.choices[0].message.content
+            
+            response = self.ollama_client.chat.completions.create(
+                model=self.MODEL,
+                messages=messages,
+                max_tokens=self.MAX_TOKENS,
+                temperature=self.TEMPERATURE,
+                
+            )
+            responses.append(response.choices[0].message.content)
+        return responses
