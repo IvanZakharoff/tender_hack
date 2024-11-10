@@ -45,63 +45,63 @@ func (s *SessionService) SessionModelConstructor(csListDTO *dto.CSListDTO) *mode
 
 }
 
-func (s *SessionService) ProcessSessions(csListDTO *dto.CSListDTO) {
+func (s *SessionService) ProcessSessions(csListDTO *dto.CSListDTO) []*models.ResultList {
+	resultList := make([]*models.ResultList, 0, len(csListDTO.CSList))
 	csList := s.SessionModelConstructor(csListDTO)
 	fmt.Println(csList.CSList)
 	for k, v := range csList.CSList {
 		result, err := s.ProcessSession(&v, k)
-		if err != nil {
-			s.SendError()
-			continue
+		if err == nil {
+			resultList = append(resultList, result)
 		}
-
-		s.SendResult(result)
 	}
+
+	return resultList
 }
 
-func (s *SessionService) SendResult(result *models.ResultList) {
-	// Преобразуем структуру result в JSON
-	resultJSON, err := json.Marshal(result)
-	if err != nil {
-		return
-	}
+//func (s *SessionService) SendResult(result *models.ResultList) {
+//	// Преобразуем структуру result в JSON
+//	resultJSON, err := json.Marshal(result)
+//	if err != nil {
+//		return
+//	}
+//
+//	// Создаем POST-запрос
+//	url := "http://localhost:8000/session_result"
+//	req, err := http.NewRequest("POST", url, bytes.NewBuffer(resultJSON))
+//	if err != nil {
+//		return
+//	}
+//	req.Header.Set("Content-Type", "application/json")
+//
+//	// Выполняем запрос
+//	client := &http.Client{}
+//	resp, err := client.Do(req)
+//	if err != nil {
+//		return
+//	}
+//	defer resp.Body.Close()
+//	return
+//}
 
-	// Создаем POST-запрос
-	url := "http://localhost:8000/session_result"
-	req, err := http.NewRequest("POST", url, bytes.NewBuffer(resultJSON))
-	if err != nil {
-		return
-	}
-	req.Header.Set("Content-Type", "application/json")
-
-	// Выполняем запрос
-	client := &http.Client{}
-	resp, err := client.Do(req)
-	if err != nil {
-		return
-	}
-	defer resp.Body.Close()
-	return
-}
-
-func (s *SessionService) SendError() {
-	// Создаем POST-запрос
-	url := "http://localhost:8000/session_result"
-	message := "Упс! Что-то пошло не так."
-	req, err := http.NewRequest("POST", url, strings.NewReader(message))
-	if err != nil {
-		return
-	}
-	req.Header.Set("Content-Type", "text/plain")
-
-	// Выполняем запрос
-	client := &http.Client{}
-	resp, err := client.Do(req)
-	if err != nil {
-		return
-	}
-	defer resp.Body.Close()
-}
+//func (s *SessionService) SendError() {
+//	// Создаем POST-запрос
+//	url := "http://localhost:8000/session_result"
+//	message := "Упс! Что-то пошло не так."
+//	req, err := http.NewRequest("POST", url, strings.NewReader(message))
+//	if err != nil {
+//		return
+//	}
+//	req.Header.Set("Content-Type", "text/plain")
+//
+//	// Выполняем запрос
+//	client := &http.Client{}
+//	resp, err := client.Do(req)
+//	if err != nil {
+//		return
+//	}
+//	defer resp.Body.Close()
+//}
 
 func (s *SessionService) ProcessSession(cs *models.CSBlock, cs_url string) (*models.ResultList, error) {
 	csRaw := s.SessionScraper.ScrapeSession(cs_url)
@@ -118,6 +118,8 @@ func (s *SessionService) ProcessSession(cs *models.CSBlock, cs_url string) (*mod
 	if err != nil {
 		return nil, err
 	}
+	result.Url = cs_url
+	result.Name = csRaw.Name
 
 	return result, nil
 }
@@ -143,7 +145,8 @@ func (s *SessionService) CheckSession(rules *models.Rules, cs *models.CSBlock, r
 
 	// Добавляем файлы в форму
 	for filename, file := range cs.Files {
-		part, err := writer.CreateFormFile("files", filename)
+		fileType := strings.Split(filename, ".")[0]
+		part, err := writer.CreateFormFile(fileType, filename)
 		if err != nil {
 			return err
 		}
