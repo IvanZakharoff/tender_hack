@@ -1,0 +1,94 @@
+.mat-table {
+  width: 100%;
+}
+
+.mat-header-cell,
+.mat-cell {
+  text-align: center;
+}
+
+.action-button {
+  margin-left: 5px !important;
+  width: 30px;
+  height: 30px;
+  padding-right: 20px;
+}
+
+.lessons-table {
+  overflow-x: auto;
+  padding-left: 10px;
+  margin-top: -40px;
+}
+
+.mat-header-cell,
+.mat-cell {
+  padding: 3px !important;
+}
+
+.mat-row,
+.mat-header-row {
+  width: 100% !important;
+}
+
+.row {
+  display: flex;
+}
+
+.filter-form-field {
+  margin-right: 15px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 20px;
+}
+
+.session-info {
+  margin: auto 0;
+  padding: 10px 40px 10px 20px;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: #45a049;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.mat-drawer-content {
+  overflow: hidden;
+}
+
+.button {
+  margin: 10px;
+}
+
+.url-field {
+  width: 600px;
+}
+
+.file-upload {
+  margin: 20px;
+}
+
+.delete-button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}

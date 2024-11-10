@@ -1,0 +1,36 @@
+<div class="draw-container">
+    <div *ngFor="let session of sessions" class="session-card">
+        <h3>
+            <mat-checkbox class="session-checkbox">Снять с публикации</mat-checkbox>
+            {{ session.sessionName }}
+        </h3>
+
+        <mat-table [dataSource]="session.rules" class="mat-elevation-z8">
+            <!-- Rule Column -->
+            <ng-container matColumnDef="rule">
+                <mat-header-cell *matHeaderCellDef>Правило</mat-header-cell>
+                <mat-cell *matCellDef="let rule">
+                    <span>Правило {{ rule.id }}</span>
+                    <button mat-button *ngIf="rule.reason" (click)="toggleReason(rule)">
+                        {{ rule.showReason ? 'Скрыть' : 'Показать' }} описание
+                    </button>
+                    <div *ngIf="rule.showReason" class="rule-description">{{ rule.reason }}</div>
+                </mat-cell>
+            </ng-container>
+
+            <!-- Status Column -->
+            <ng-container matColumnDef="status">
+                <mat-header-cell *matHeaderCellDef>Статус</mat-header-cell>
+                <mat-cell *matCellDef="let rule">
+                    {{ rule.passed ? 'Пройдено' : 'Не пройдено' }}
+                </mat-cell>
+            </ng-container>
+
+            <!-- Table Header and Row Declarations -->
+            <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+            <mat-row *matRowDef="let rule; columns: displayedColumns"
+                [ngClass]="{ 'row-passed': rule.passed, 'row-failed': !rule.passed }">
+            </mat-row>
+        </mat-table>
+    </div>
+</div>

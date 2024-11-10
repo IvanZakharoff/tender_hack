@@ -1,0 +1,17 @@
+<div class="row">
+  <div *ngIf="rules">
+    <div *ngFor="let rule of rules" class="rule-list-container" (click)="toggleSelection(rule.id, checkbox)">
+      <mat-checkbox color="primary" #checkbox [checked]="checkSelection(rule.id)">
+        <p>{{rule.name}}</p>
+      </mat-checkbox>
+    </div>
+  </div>
+  <div class="buttons">
+    <div>
+      <button class="button" mat-raised-button color="primary" (click)="selectAll()">Выбрать все правила</button>
+    </div>
+    <div>
+      <button class="button" mat-raised-button color="primary" (click)="selectForAllSessions()">Применить текущий набор правил ко всем сессиям</button>
+    </div>
+  </div>
+</div>
