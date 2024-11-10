@@ -1,20 +1,34 @@
 <div class="draw-container">
+    <div class="header">
+    <h2>Результаты проверки</h2>
+    
+        <button class="header-button" mat-raised-button color="primary" (click)="delete()"> Снять с публикации</button>
+    </div>
     <div *ngFor="let session of sessions" class="session-card">
-        <h3>
-            <mat-checkbox class="session-checkbox">Снять с публикации</mat-checkbox>
-            {{ session.sessionName }}
-        </h3>
+        <div class="session-header">
+            <h3>{{ session.name }}</h3>
+            <mat-checkbox color="primary" class="session-checkbox">Выбрать для снятия с публикации</mat-checkbox>
+        </div>
 
         <mat-table [dataSource]="session.rules" class="mat-elevation-z8">
+            <ng-container matColumnDef="expand">
+                <mat-header-cell *matHeaderCellDef></mat-header-cell>
+
+                <mat-cell *matCellDef="let rule">
+
+                    <button *ngIf="rule.reason" mat-icon-button type="button" class="expand-button"
+                        (click)="toggleExpandedElement(session.name, rule.id)">
+                        <i class="material-icons black-icon ">{{isExpanded(session.name, rule.id)
+                            ? "expand_less" : "expand_more"}}</i>
+                    </button>
+
+                </mat-cell>
+            </ng-container>
             <!-- Rule Column -->
             <ng-container matColumnDef="rule">
                 <mat-header-cell *matHeaderCellDef>Правило</mat-header-cell>
                 <mat-cell *matCellDef="let rule">
-                    <span>Правило {{ rule.id }}</span>
-                    <button mat-button *ngIf="rule.reason" (click)="toggleReason(rule)">
-                        {{ rule.showReason ? 'Скрыть' : 'Показать' }} описание
-                    </button>
-                    <div *ngIf="rule.showReason" class="rule-description">{{ rule.reason }}</div>
+                    <span>{{findRuleById(rule.id) }}</span>
                 </mat-cell>
             </ng-container>
 
@@ -31,6 +45,7 @@
             <mat-row *matRowDef="let rule; columns: displayedColumns"
                 [ngClass]="{ 'row-passed': rule.passed, 'row-failed': !rule.passed }">
             </mat-row>
+            
         </mat-table>
     </div>
 </div>

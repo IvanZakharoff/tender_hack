@@ -49,6 +49,7 @@
 .session-info {
   margin: auto 0;
   padding: 10px 40px 10px 20px;
+  width: 40%;
 }
 
 .custom-file-upload {
@@ -85,6 +86,7 @@
 
 .file-upload {
   margin: 20px;
+  width: 50%;
 }
 
 .delete-button {

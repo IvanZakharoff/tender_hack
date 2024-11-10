@@ -1,28 +1,44 @@
 .session-card {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-  }
-  
-  .session-checkbox {
-    margin-right: 10px;
-  }
-  
-  .row-passed {
-    background-color: #55fc62ad;
-  }
-  
-  .row-failed {
-    background-color: #f700257a;
-  }
-  
-  .rule-description {
-    margin-top: 8px;
-    padding: 8px;
-    background-color: #f5f5f5;
-    border-radius: 4px;
-  }
-  
-  
-  
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.header {
+  position: relative;
+}
+
+.header-button {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+
+.session-checkbox {
+  margin-right: 10px;
+}
+
+.row-passed {
+  background-color: #55fc62ad;
+}
+
+.row-failed {
+  background-color: #f700257a;
+}
+
+.rule-description {
+  margin-top: 8px;
+  padding: 8px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.session-header {
+  display: flex;
+  justify-content: space-between;
+}

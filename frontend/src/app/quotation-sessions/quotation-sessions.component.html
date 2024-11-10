@@ -1,9 +1,9 @@
 <div class="draw-container" autosize>
     <div class="row">
-        <button class="button" color="primary"  mat-raised-button (click)="add()">
+        <button class="button" color="primary" mat-raised-button (click)="add()">
             Добавить котировочную сессию
         </button>
-        <button class="button" color="primary"  mat-raised-button (click)="sendForChecking()">
+        <button class="button" color="primary" mat-raised-button (click)="sendForChecking()">
             Отправить на проверку
         </button>
     </div>
@@ -13,7 +13,8 @@
                 <mat-card class="card">
                     <div [formGroupName]="i" class="session-info">
                         <div class="delete-button">
-                            <button color="warn" mat-raised-button (click)="delete(sessions.controls.length-i-1)">Удалить котировочную сессию </button>
+                            <button color="warn" mat-raised-button
+                                (click)="delete(sessions.controls.length-i-1)">Удалить котировочную сессию </button>
                         </div>
                         <mat-form-field class="url-field">
                             <mat-label>URL котировочной сессии</mat-label>
@@ -34,17 +35,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div #loadFileElement>
-                                <div class="file-upload">
+                            <div class="file-upload" #loadFileElement>
+                                <div>
                                     <div class="col">
                                         <label class="custom-file-upload">
                                             <input autocomplete="off" #openFileDialog
                                                 (change)="selectFile($event, session, 'contract')" type="file" />
                                             Выбрать файл контракта
                                         </label>
-                                    </div>
-                                    <div>
-                                        <p>{{getFileName(session, 'contract')}}</p>
+
+                                        <div class="file-name">
+                                            <p>{{getFileName(session, 'contract')}}</p>
+                                        </div>
                                     </div>
 
                                 </div>

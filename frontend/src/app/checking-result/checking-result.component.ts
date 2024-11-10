@@ -1,79 +1,122 @@
+import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 interface Rule {
   id: string;
   passed: boolean;
   reason: string | null;
-  showReason?: boolean;
+  showReason: boolean;
 }
 
 interface Session {
-  sessionName: string;
+  name: string;
   rules: Rule[];
 }
 
 @Component({
   selector: 'app-checking-result',
   templateUrl: './checking-result.component.html',
-  styleUrl: './checking-result.component.css'
+  styleUrl: './checking-result.component.css',
+  animations: [
+    trigger('detailExpand', [
+      state('collapsed', style({height: '0px', minHeight: '0', visibility: 'hidden'})),
+      state('expanded', style({height: 'auto', visibility: 'visible'})),
+      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
+  ])
+  ],
 })
 export class CheckingResultComponent implements OnInit {
+
+  rules = [
+    { id: 1, name: 'Правило 1 теоретически будет длинное' },
+    { id: 2, name: 'Правило 2' },
+    { id: 3, name: 'Правило 3' },
+    { id: 4, name: 'Правило 4' },
+    { id: 5, name: 'Правило 5' },
+    { id: 6, name: 'Правило 6' },
+  ];
+
+
   sessions: any[] = [];
-  displayedColumns: string[] = ['rule', 'status'];
+  displayedColumns: string[] = ['expand', 'rule', 'status'];
+  expandedElement: { sessionName: string; ruleId: number } | null = null;
 
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     const sessionsData = [
       {
-        sessionName: 'Session 1',
+        name: 'Session 1',
         rules: [
           {
-            id: 'rule1',
+            id: 1,
             passed: true,
-            description: 'Описание: Все необходимые поля заполнены корректно.',
+            reason: 'Описание: Все необходимые поля заполнены корректно.',
           },
           {
-            id: 'rule2',
+            id: 3,
             passed: false,
-            description: 'Ошибка: Превышен лимит количества символов в названии.',
+            reason: 'Ошибка: Превышен лимит количества символов в названии.',
           },
           {
-            id: 'rule3',
+            id: 4,
             passed: true,
-            description: null, // Нет описания для пройденного правила
+            reason: null, // Нет описания для пройденного правила
           },
         ],
       },
       {
-        sessionName: 'Session 2',
+        name: 'Session 2',
         rules: [
           {
-            id: 'rule1',
+            id: 2,
             passed: false,
-            description: 'Ошибка: Не пройдена проверка на уникальность.',
+            reasonv: 'Ошибка: Не пройдена проверка на уникальность.',
           },
           {
-            id: 'rule2',
+            id: 5,
             passed: true,
-            description: null,
+            reason: null,
           },
           {
-            id: 'rule3',
+            id: 6,
             passed: false,
-            description: 'Ошибка: Неправильный формат данных.',
+            reason: 'Ошибка: Неправильный формат данных.',
           },
         ],
       },
     ];
     this.sessions = history.state.data;
     this.sessions = sessionsData;
-    
+
   }
 
   toggleReason(rule: Rule) {
-    rule.showReason = !rule.showReason;
+    rule.showReason = !rule.showReason
+  }
+
+  toggleExpandedElement(sessionName: string, ruleId: number) {
+    if (this.expandedElement && this.expandedElement.sessionName === sessionName && this.expandedElement.ruleId === ruleId) {
+      this.expandedElement = null;
+    } else {
+      this.expandedElement = { sessionName, ruleId };
+    }
+  }
+
+  isExpanded(sessionName: string, ruleId: number): boolean {
+    return this.expandedElement?.sessionName === sessionName && this.expandedElement?.ruleId === ruleId;
+  }
+
+  isDetailRow = (index: number, row: any) => row.hasOwnProperty('reason');
+
+  delete() {
+    this.router.navigate(['/success']);
+  }
+
+  findRuleById(id: number) {
+    return this.rules.find(rule => rule.id = id)?.name
   }
 
 }

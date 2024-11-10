@@ -17,14 +17,14 @@ interface SessionFiles {
   providedIn: 'root',
 })
 export class FileUploadService {
-  private apiUrl = 'https://localhost:5003/check_sessions';
+  private apiUrl = 'http://localhost:5003/check_sessions';
 
   constructor(private http: HttpClient) { }
 
   uploadData(sessions: Session[], filesData: SessionFiles[]): Observable<any> {
     const formData = new FormData();
 
-    formData.append('sessions', JSON.stringify(sessions));
+    formData.append('data', JSON.stringify(sessions));
 
     filesData.forEach((UrlFiles) => {
       if (UrlFiles.tzFile) {

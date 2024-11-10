@@ -11,6 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FileUploadService } from './upload-service';
 import { HttpClientModule } from '@angular/common/http';
 import { CheckingResultComponent } from './checking-result/checking-result.component';
+import { SuccessPageComponent } from './success-page/success-page.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CheckingResultComponent } from './checking-result/checking-result.compo
     QuotationSessionsComponent,
     RuleListComponent,
     CheckingResultComponent,
+    SuccessPageComponent,
   ],
   imports: [
     BrowserModule,
