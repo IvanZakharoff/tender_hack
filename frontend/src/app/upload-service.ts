@@ -30,14 +30,17 @@ export class FileUploadService {
           rules: session.rules
       }))
   };
+
     formData.append('data', JSON.stringify(formattedData));
 
     filesData.forEach((UrlFiles) => {
-      if (UrlFiles.tzFile) {
-        formData.append(UrlFiles.URL, UrlFiles.tzFile, 'tz');
-      }
-      if (UrlFiles.contractFile) {
-        formData.append(UrlFiles.URL, UrlFiles.contractFile, 'contract');
+      if (UrlFiles.tzFile) { 
+        const tzFileExtension = UrlFiles.tzFile.name.split('.').pop(); // Получаем расширение файла 
+        formData.append(UrlFiles.URL, UrlFiles.tzFile, `tz.${tzFileExtension}`); 
+      } 
+      if (UrlFiles.contractFile) { 
+        const contractFileExtension = UrlFiles.contractFile.name.split('.').pop(); // Получаем расширение файла 
+        formData.append(UrlFiles.URL, UrlFiles.contractFile, `contract.${contractFileExtension}`); 
       }
 
     });

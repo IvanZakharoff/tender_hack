@@ -111,5 +111,6 @@ func (h *Handler) CheckSessions(w http.ResponseWriter, r *http.Request) {
 	// Отправляем успешный ответ
 	w.Header().Set("Content-Type", "application/json")
 	// json.NewEncoder(w).Encode(resultsJSON)
+
 	w.Write(resultsJSON)
 }
