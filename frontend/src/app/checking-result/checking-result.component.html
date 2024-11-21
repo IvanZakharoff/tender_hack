@@ -1,0 +1,40 @@
+<div class="draw-container">
+    <div class="header">
+        <h1>Результаты проверки</h1>
+
+        <button class="header-button" mat-raised-button color="primary" (click)="delete()"> Снять с публикации</button>
+    </div>
+    <div *ngFor="let session of sessions" class="session-card">
+        <div class="session-header">
+            <h2>{{ session.name }}</h2>
+            <span>{{session.url}}</span>
+            <mat-checkbox class="session-checkbox" color="primary" [checked]="checkSelection(session)">Снять с
+                публикации</mat-checkbox>
+        </div>
+
+        <!-- Accordion with Expansion Panels for each Rule -->
+        <mat-accordion>
+            <mat-expansion-panel *ngFor="let rule of session.results" [expanded]="expandedRule === rule.id"
+                (opened)="setExpandedRule(rule.id)" (closed)="setExpandedRule(null)"
+                [ngClass]="{ 'rule-passed': rule.status == 'succeed', 'rule-warning': rule.status == 'warning', 'rule-failed': rule.status == 'unsucceed'}">
+                <!-- Panel Header -->
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Правило {{ rule.id }}
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        <span
+                            [ngClass]="{ 'status-passed': rule.status == 'succeed', 'status-warning': rule.status == 'warning', 'status-failed': rule.status == 'unsucceed' }">
+                            {{findStatusBySystemName(rule.status)}}
+                        </span>
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+
+                <!-- Rule Description -->
+                <div *ngIf="rule.reason" class="rule-description">
+                    {{ rule.reason }}
+                </div>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</div>

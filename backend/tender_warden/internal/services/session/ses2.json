@@ -1,0 +1,421 @@
+{
+  "customer": {
+    "name": "Государственное бюджетное общеобразовательное учреждение города Москвы «Школа № 1636 «НИКА»",
+    "id": 1141532
+  },
+  "createdByCustomer": {
+    "name": "Государственное бюджетное общеобразовательное учреждение города Москвы «Школа № 1636 «НИКА»",
+    "id": 1141532
+  },
+  "state": {
+    "name": "Активная",
+    "id": 19000002
+  },
+  "startDate": "08.11.2024 16:30:15",
+  "initialDuration": 72.0,
+  "endDate": "11.11.2024 16:30:15",
+  "startCost": 225000.00000,
+  "nextCost": null,
+  "lastBetSupplier": null,
+  "lastBetCost": null,
+  "lastBetId": null,
+  "lastBet": {
+    "num": 1,
+    "cost": 223875.00000,
+    "serverTime": "08.11.2024 16:56:17",
+    "isAutoBet": false,
+    "auctionId": 9869970,
+    "supplierId": 28311678,
+    "createUserId": 20230653,
+    "lastManualServerTime": null,
+    "supplier": {
+      "name": "ООО \"ПРО-ЭКСПЕРТ\"",
+      "id": 28311678
+    },
+    "id": 151687894
+  },
+  "step": 0.00000,
+  "auctionItem": [
+    {
+      "currentValue": 150.00000,
+      "costPerUnit": 1500.00000,
+      "okeiName": "Л; ДМ3",
+      "createdOfferId": null,
+      "skuId": null,
+      "imageId": null,
+      "defaultImageId": null,
+      "okpdName": "Средства дезинфекционные",
+      "productionDirectoryName": "Средство дезинфицирующее для медицинских учреждений",
+      "oksm": null,
+      "name": null,
+      "id": 22157213
+    }
+  ],
+  "bets": [],
+  "offerSignTime": null,
+  "uniqueSupplierCount": 1,
+  "auctionRegion": [
+    {
+      "treePathId": ".1.504.",
+      "socr": "г",
+      "id": 504,
+      "oktmo": "45000000",
+      "code": "7700000000000",
+      "name": "г Москва"
+    }
+  ],
+  "repeatId": null,
+  "unpublishName": null,
+  "unpublishDate": null,
+  "federalLawName": "44-ФЗ",
+  "conclusionReasonName": "п. 4 ч. 1 ст. 93 Закупка объемом до 600 тысяч рублей",
+  "items": [
+    {
+      "currentValue": 150.00000,
+      "costPerUnit": 1500.00000,
+      "okeiName": "Л; ДМ3",
+      "createdOfferId": null,
+      "skuId": 37295687,
+      "imageId": 199915798,
+      "defaultImageId": null,
+      "okpdName": "Средства дезинфекционные",
+      "productionDirectoryName": "Средство дезинфицирующее для медицинских учреждений",
+      "oksm": null,
+      "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+      "id": 22157213
+    }
+  ],
+  "deliveries": [
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Воронежская, дом 28, корпус 2",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237859
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Воронежская, дом 5, корпус 2",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237860
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Воронежская, дом 7, корпус 2",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237861
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Воронежская, дом 8, корпус 5",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237862
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Генерала Белова, дом 49, корпус 1",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237863
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Генерала Белова, дом 55, корпус 2",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237864
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Елецкая, дом 12, корпус 3",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237865
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Елецкая, дом 15, корпус 2",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237866
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Елецкая, дом 21",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237867
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Ясеневая, дом 12, строение 3",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237868
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Ясеневая, дом 12, строение 4",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237869
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Ясеневая, дом 21, корпус 3",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237870
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Ясеневая, дом 23, корпус 2",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237871
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Ясеневая, дом 35, корпус 2",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237872
+    },
+    {
+      "periodDaysFrom": 1,
+      "periodDaysTo": 3,
+      "periodDateFrom": null,
+      "periodDateTo": null,
+      "deliveryPlace": "г г Москва, Город Москва, улица Ясеневая, дом 39, корпус 2",
+      "quantity": 0.0,
+      "items": [
+        {
+          "sum": 15000.0000000,
+          "costPerUnit": 1500.00000,
+          "quantity": 10.00,
+          "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+          "buyerId": null,
+          "isBuyerInvitationSent": false,
+          "isApprovedByBuyer": null
+        }
+      ],
+      "id": 6237873
+    }
+  ],
+  "files": [
+    {
+      "companyId": null,
+      "name": "Техническое задание на поставку дезинфицирующего средства ДЕЗЭКСПРЕСС.docx",
+      "id": 233441926
+    },
+    {
+      "companyId": null,
+      "name": "Проект контракта.pdf",
+      "id": 233441928
+    }
+  ],
+  "licenseFiles": [],
+  "offersSigned": false,
+  "showPurchaseRequestMessageIfFailed": false,
+  "purchaseTypeId": 1,
+  "contractCost": null,
+  "contracts": [],
+  "unpublishComment": null,
+  "externalId": "23992266",
+  "isElectronicContractExecutionRequired": true,
+  "isContractGuaranteeRequired": false,
+  "contractGuaranteeAmount": null,
+  "rowVersion": "AAAAAmozXMY=",
+  "organizingTypeId": 1,
+  "sharedPurchaseBuyers": null,
+  "suppliersAutobetSettings": [],
+  "isLicenseProduction": false,
+  "isExternalIntegration": true,
+  "name": "Средство дезинфицирующее  «Дезэкспресс» концентрат 1 литр",
+  "id": 9869970
+}

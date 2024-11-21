@@ -2,6 +2,8 @@ from flask import Blueprint
 from flask_restx import Api
 
 from . import example
+from . import check
+
 
 
 def init_routers(app):
@@ -12,6 +14,7 @@ def init_routers(app):
               doc='/swagger')
     
     api.add_namespace(example.api)
+    api.add_namespace(check.api)
 
     app.register_blueprint(blueprint)
 

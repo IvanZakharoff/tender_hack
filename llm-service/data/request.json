@@ -1,0 +1,63 @@
+{
+    "text":"clear_contract",
+    "rules":
+    [
+        {
+            "rule":"NAME_EQUALITY",
+            "parsed_args":{
+                "contractName":"name" 
+            }
+        },
+    
+        {
+            "rule":"CONTRACT_ENFORSEMENT",
+            "args":{
+                "isContractGuaranteeRequired":true 
+            }
+        },
+    
+        {
+        "rule":"CERTIFICATION",
+            "args":{
+                "licenseFiles":[
+                "text" 
+                ]
+            }
+        },
+        {
+            "rule":"SUPPLY_SCHEDULE AND STAGE",
+            "args":{
+                "periodDaysFrom":"<text>", 
+                "periodDaysTo":"<text>",    
+                "deliveryStage":"smth text"
+            }
+        },
+        {
+            "rule":"CONTRACT_COST",
+            "args":{
+                "startCost":"<text>",
+                "maxContractCost":"<text>"
+            }
+        },
+        {
+        "rule":"TECHNICAL_SPECIFICATION",
+
+        "args":{
+            "text_tz":"<text tz>",
+            "items":[
+                {
+                    "name":"<text>",
+                    "properties":[
+                        {
+                            "name":"<text>",
+                            "value":"<text>"
+                        }
+                    ],
+                    "quantity":"<text>",
+                    "costPerUnit":"<text>"
+                }
+            ]
+        }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+<div class="spinner-container" *ngIf="loading | async">
+    <mat-spinner></mat-spinner>
+</div>
+<div class="draw-container" autosize>
+    <div class="row">
+        <button class="button" color="primary" mat-raised-button (click)="add()">
+            Добавить котировочную сессию
+        </button>
+        <button class="button" color="primary" mat-raised-button (click)="sendForChecking()">
+            Отправить на проверку
+        </button>
+    </div>
+    <div *ngIf="formGroup && sessions">
+        <div [formGroup]="formGroup">
+            <div formArrayName="sessions" *ngFor="let session of sessions.controls.reverse(); let i = index">
+                <mat-card class="card">
+                    <div [formGroupName]="i" class="session-info">
+                        <div class="delete-button">
+                            <button color="warn" mat-raised-button
+                                (click)="delete(sessions.controls.length-i-1)">Удалить котировочную сессию </button>
+                        </div>
+                        <mat-form-field class="url-field">
+                            <mat-label>URL котировочной сессии</mat-label>
+                            <input class="input" matInput formControlName="URL" />
+                        </mat-form-field>
+                        <div class="row file-upload-row">
+                            <div class="file-upload" #loadFileElement>
+                                <div>
+                                    <div class="col">
+                                        <label class="custom-file-upload">
+                                            <input autocomplete="off" #openFileDialog
+                                                (change)="selectFile($event, session, 'tz')" type="file" />
+                                            Выбрать файл ТЗ
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <p>{{getFileName(session, 'tz')}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="file-upload" #loadFileElement>
+                                <div>
+                                    <div class="col">
+                                        <label class="custom-file-upload">
+                                            <input autocomplete="off" #openFileDialog
+                                                (change)="selectFile($event, session, 'contract')" type="file" />
+                                            Выбрать файл контракта
+                                        </label>
+
+                                        <div class="file-name">
+                                            <p>{{getFileName(session, 'contract')}}</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <app-rule-list [selectedRules]="selectedRules" (result)="changeRules($event, session)"
+                        (selectForAll)="selectForAllSessions($event)" class="role-list"></app-rule-list>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>
